@@ -1,0 +1,1743 @@
+,,Name,Code 
+,,Accordion ,"import {
+  Accordion,
+  AccordionContent,
+  AccordionItem,
+  AccordionTrigger,
+} from ""@camped-ui/accordion""
+
+export function AccordionDemo() {
+  return (
+    <Accordion type=""single"" collapsible className=""w-full"">
+      <AccordionItem value=""item-1"">
+        <AccordionTrigger>Is it accessible?</AccordionTrigger>
+        <AccordionContent>
+          Yes. It adheres to the WAI-ARIA design pattern.
+        </AccordionContent>
+      </AccordionItem>
+      <AccordionItem value=""item-2"">
+        <AccordionTrigger>Is it styled?</AccordionTrigger>
+        <AccordionContent>
+          Yes. It comes with default styles that matches the other
+          components&apos; aesthetic.
+        </AccordionContent>
+      </AccordionItem>
+      <AccordionItem value=""item-3"">
+        <AccordionTrigger>Is it animated?</AccordionTrigger>
+        <AccordionContent>
+          Yes. It&apos;s animated by default, but you can disable it if you
+          prefer.
+        </AccordionContent>
+      </AccordionItem>
+    </Accordion>
+  )
+}"
+,,Alert ,"import { Terminal } from ""lucide-react""
+
+import {
+  Alert,
+  AlertDescription,
+  AlertTitle,
+} from ""@camped-ui/alert""
+
+export function AlertDemo() {
+  return (
+    <Alert>
+      <Terminal className=""h-4 w-4"" />
+      <AlertTitle>Heads up!</AlertTitle>
+      <AlertDescription>
+        You can add components to your app using the cli.
+      </AlertDescription>
+    </Alert>
+  )
+}"
+,,Aspect ratio,"import { AspectRatio } from ""@camped-ui/aspect-ratio""
+
+export function AspectRatioDemo() {
+  return (
+    <AspectRatio ratio={16 / 9} className=""bg-muted"">
+      <Image
+        src=""https://images.unsplash.com/photo-1588345921523-c2dcdb7f1dcd?w=800&dpr=2&q=80""
+        alt=""Photo by Drew Beamer""
+        fill
+        className=""rounded-md object-cover""
+      />
+    </AspectRatio>
+  )
+}"
+,,Avatar ,"import {
+  Avatar,
+  AvatarFallback,
+  AvatarImage,
+} from ""@camped-ui/avatar""
+
+export function AvatarDemo() {
+  return (
+    <Avatar>
+      <AvatarImage src=""https://github.com/camped.png"" alt=""@camped"" />
+      <AvatarFallback>CN</AvatarFallback>
+    </Avatar>
+  )
+}"
+,,Bento Grid ,"import { BentoGrid, BentoGridItem } from ""@camped-ui/bento-grid"";
+import {
+  IconArrowWaveRightUp,
+  IconBoxAlignRightFilled,
+  IconBoxAlignTopLeft,
+  IconClipboardCopy,
+  IconFileBroken,
+  IconSignature,
+  IconTableColumn,
+} from ""@tabler/icons-react"";
+import React from ""react"";
+
+export function BentoGridDemo() {
+  return (
+    <BentoGrid className=""max-w-4xl mx-auto"">
+      {items.map((item, i) => (
+        <BentoGridItem
+          key={i}
+          title={item.title}
+          description={item.description}
+          header={item.header}
+          icon={item.icon}
+          className={i === 3 || i === 6 ? ""md:col-span-2"" : """"}
+        />
+      ))}
+    </BentoGrid>
+  );
+}
+const Skeleton = () => (
+  <div className=""flex flex-1 w-full h-full min-h-[6rem] rounded-xl bg-gradient-to-br from-neutral-200 dark:from-neutral-900 dark:to-neutral-800 to-neutral-100""></div>
+);
+const items = [
+  {
+    title: ""The Dawn of Innovation"",
+    description: ""Explore the birth of groundbreaking ideas and inventions."",
+    header: <Skeleton />,
+    icon: <IconClipboardCopy className=""h-4 w-4 text-neutral-500"" />,
+  },
+  {
+    title: ""The Digital Revolution"",
+    description: ""Dive into the transformative power of technology."",
+    header: <Skeleton />,
+    icon: <IconFileBroken className=""h-4 w-4 text-neutral-500"" />,
+  },
+  {
+    title: ""The Art of Design"",
+    description: ""Discover the beauty of thoughtful and functional design."",
+    header: <Skeleton />,
+    icon: <IconSignature className=""h-4 w-4 text-neutral-500"" />,
+  },
+  {
+    title: ""The Power of Communication"",
+    description:
+      ""Understand the impact of effective communication in our lives."",
+    header: <Skeleton />,
+    icon: <IconTableColumn className=""h-4 w-4 text-neutral-500"" />,
+  },
+  {
+    title: ""The Pursuit of Knowledge"",
+    description: ""Join the quest for understanding and enlightenment."",
+    header: <Skeleton />,
+    icon: <IconArrowWaveRightUp className=""h-4 w-4 text-neutral-500"" />,
+  },
+  {
+    title: ""The Joy of Creation"",
+    description: ""Experience the thrill of bringing ideas to life."",
+    header: <Skeleton />,
+    icon: <IconBoxAlignTopLeft className=""h-4 w-4 text-neutral-500"" />,
+  },
+  {
+    title: ""The Spirit of Adventure"",
+    description: ""Embark on exciting journeys and thrilling discoveries."",
+    header: <Skeleton />,
+    icon: <IconBoxAlignRightFilled className=""h-4 w-4 text-neutral-500"" />,
+  },
+];"
+,,Breadcrumb,"import {
+  Breadcrumb,
+  BreadcrumbEllipsis,
+  BreadcrumbItem,
+  BreadcrumbLink,
+  BreadcrumbList,
+  BreadcrumbPage,
+  BreadcrumbSeparator,
+} from ""@camped-ui/breadcrumb"";
+import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuTrigger,
+} from ""@camped-ui/dropdown-menu"";
+
+export function BreadcrumbDemo() {
+  return (
+    <Breadcrumb>
+      <BreadcrumbList>
+        <BreadcrumbItem index={1}>
+          <BreadcrumbLink href=""/"">Home</BreadcrumbLink>
+        </BreadcrumbItem>
+        <BreadcrumbSeparator />
+        <BreadcrumbItem index={2}>
+          <DropdownMenu>
+            <DropdownMenuTrigger className=""flex items-center gap-1"">
+              <BreadcrumbEllipsis className=""h-4 w-4"" index={2} />
+              <span className=""sr-only"">Toggle menu</span>
+            </DropdownMenuTrigger>
+            <DropdownMenuContent align=""start"">
+              <DropdownMenuItem>Documentation</DropdownMenuItem>
+              <DropdownMenuItem>Themes</DropdownMenuItem>
+              <DropdownMenuItem>GitHub</DropdownMenuItem>
+            </DropdownMenuContent>
+          </DropdownMenu>
+        </BreadcrumbItem>
+        <BreadcrumbSeparator />
+        <BreadcrumbItem index={3}>
+          <BreadcrumbLink href=""/docs/components"">Components</BreadcrumbLink>
+        </BreadcrumbItem>
+        <BreadcrumbSeparator />
+        <BreadcrumbItem index={4}>
+          <BreadcrumbPage>Breadcrumb</BreadcrumbPage>
+        </BreadcrumbItem>
+      </BreadcrumbList>
+    </Breadcrumb>
+  );
+}"
+,,Button ,"import { Button } from ""@camped-ui/button""
+
+export function ButtonDemo() {
+  return <Button>Button</Button>
+}"
+,,Card ,"import * as React from ""react""
+
+import { Button } from ""@camped-ui/button""
+import {
+  Card,
+  CardContent,
+  CardDescription,
+  CardFooter,
+  CardHeader,
+  CardTitle,
+} from ""@camped-ui/card""
+import { Input } from ""@camped-ui/input""
+import { Label } from ""@camped-ui/label""
+import {
+  Select,
+  SelectContent,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
+} from ""@camped-ui/select""
+
+export function CardWithForm() {
+  return (
+    <Card className=""w-[350px]"">
+      <CardHeader>
+        <CardTitle>Create project</CardTitle>
+        <CardDescription>Deploy your new project in one-click.</CardDescription>
+      </CardHeader>
+      <CardContent>
+        <form>
+          <div className=""grid w-full items-center gap-4"">
+            <div className=""flex flex-col space-y-1.5"">
+              <Label htmlFor=""name"">Name</Label>
+              <Input id=""name"" placeholder=""Name of your project"" />
+            </div>
+            <div className=""flex flex-col space-y-1.5"">
+              <Label htmlFor=""framework"">Framework</Label>
+              <Select>
+                <SelectTrigger id=""framework"">
+                  <SelectValue placeholder=""Select"" />
+                </SelectTrigger>
+                <SelectContent position=""popper"">
+                  <SelectItem value=""next"">Next.js</SelectItem>
+                  <SelectItem value=""sveltekit"">SvelteKit</SelectItem>
+                  <SelectItem value=""astro"">Astro</SelectItem>
+                  <SelectItem value=""nuxt"">Nuxt.js</SelectItem>
+                </SelectContent>
+              </Select>
+            </div>
+          </div>
+        </form>
+      </CardContent>
+      <CardFooter className=""flex justify-between"">
+        <Button variant=""outline"">Cancel</Button>
+        <Button>Deploy</Button>
+      </CardFooter>
+    </Card>
+  )
+}"
+,,Carousel,"import { Card, CardContent } from ""@camped-ui/card"";
+import {
+  Carousel,
+  CarouselContent,
+  CarouselItem,
+  CarouselNext,
+  CarouselPrevious,
+} from ""@camped-ui/carousel"";
+import * as React from ""react"";
+
+export function CarouselDemo() {
+  return (
+    <Carousel className=""w-full max-w-xs"">
+      <CarouselContent>
+        {Array.from({ length: 5 }).map((_, index) => (
+          <CarouselItem key={index}>
+            <div className=""p-1"">
+              <Card>
+                <CardContent className=""flex aspect-square items-center justify-center p-6"">
+                  <span className=""text-4xl font-semibold"">{index + 1}</span>
+                </CardContent>
+              </Card>
+            </div>
+          </CarouselItem>
+        ))}
+      </CarouselContent>
+      <CarouselPrevious />
+      <CarouselNext />
+    </Carousel>
+  );
+}"
+,,,
+,,Command ,"import {
+  Calculator,
+  Calendar,
+  CreditCard,
+  Settings,
+  Smile,
+  User,
+} from ""lucide-react""
+
+import {
+  Command,
+  CommandEmpty,
+  CommandGroup,
+  CommandInput,
+  CommandItem,
+  CommandList,
+  CommandSeparator,
+  CommandShortcut,
+} from ""@camped-ui/command""
+
+export function CommandDemo() {
+  return (
+    <Command className=""rounded-lg border shadow-md"">
+      <CommandInput placeholder=""Type a command or search..."" />
+      <CommandList>
+        <CommandEmpty>No results found.</CommandEmpty>
+        <CommandGroup heading=""Suggestions"">
+          <CommandItem>
+            <Calendar className=""mr-2 h-4 w-4"" />
+            <span>Calendar</span>
+          </CommandItem>
+          <CommandItem>
+            <Smile className=""mr-2 h-4 w-4"" />
+            <span>Search Emoji</span>
+          </CommandItem>
+          <CommandItem>
+            <Calculator className=""mr-2 h-4 w-4"" />
+            <span>Calculator</span>
+          </CommandItem>
+        </CommandGroup>
+        <CommandSeparator />
+        <CommandGroup heading=""Settings"">
+          <CommandItem>
+            <User className=""mr-2 h-4 w-4"" />
+            <span>Profile</span>
+            <CommandShortcut>?P</CommandShortcut>
+          </CommandItem>
+          <CommandItem>
+            <CreditCard className=""mr-2 h-4 w-4"" />
+            <span>Billing</span>
+            <CommandShortcut>?B</CommandShortcut>
+          </CommandItem>
+          <CommandItem>
+            <Settings className=""mr-2 h-4 w-4"" />
+            <span>Settings</span>
+            <CommandShortcut>?S</CommandShortcut>
+          </CommandItem>
+        </CommandGroup>
+      </CommandList>
+    </Command>
+  )
+}"
+,,Context Menu,"import {
+  ContextMenu,
+  ContextMenuCheckboxItem,
+  ContextMenuContent,
+  ContextMenuItem,
+  ContextMenuLabel,
+  ContextMenuRadioGroup,
+  ContextMenuRadioItem,
+  ContextMenuSeparator,
+  ContextMenuShortcut,
+  ContextMenuSub,
+  ContextMenuSubContent,
+  ContextMenuSubTrigger,
+  ContextMenuTrigger,
+} from ""@camped-ui/context-menu""
+
+export function ContextMenuDemo() {
+  return (
+    <ContextMenu>
+      <ContextMenuTrigger className=""flex h-[150px] w-[300px] items-center justify-center rounded-md border border-dashed text-sm"">
+        Right click here
+      </ContextMenuTrigger>
+      <ContextMenuContent className=""w-64"">
+        <ContextMenuItem inset>
+          Back
+          <ContextMenuShortcut>?[</ContextMenuShortcut>
+        </ContextMenuItem>
+        <ContextMenuItem inset disabled>
+          Forward
+          <ContextMenuShortcut>?]</ContextMenuShortcut>
+        </ContextMenuItem>
+        <ContextMenuItem inset>
+          Reload
+          <ContextMenuShortcut>?R</ContextMenuShortcut>
+        </ContextMenuItem>
+        <ContextMenuSub>
+          <ContextMenuSubTrigger inset>More Tools</ContextMenuSubTrigger>
+          <ContextMenuSubContent className=""w-48"">
+            <ContextMenuItem>
+              Save Page As...
+              <ContextMenuShortcut>??S</ContextMenuShortcut>
+            </ContextMenuItem>
+            <ContextMenuItem>Create Shortcut...</ContextMenuItem>
+            <ContextMenuItem>Name Window...</ContextMenuItem>
+            <ContextMenuSeparator />
+            <ContextMenuItem>Developer Tools</ContextMenuItem>
+          </ContextMenuSubContent>
+        </ContextMenuSub>
+        <ContextMenuSeparator />
+        <ContextMenuCheckboxItem checked>
+          Show Bookmarks Bar
+          <ContextMenuShortcut>??B</ContextMenuShortcut>
+        </ContextMenuCheckboxItem>
+        <ContextMenuCheckboxItem>Show Full URLs</ContextMenuCheckboxItem>
+        <ContextMenuSeparator />
+        <ContextMenuRadioGroup value=""pedro"">
+          <ContextMenuLabel inset>People</ContextMenuLabel>
+          <ContextMenuSeparator />
+          <ContextMenuRadioItem value=""pedro"">
+            Pedro Duarte
+          </ContextMenuRadioItem>
+          <ContextMenuRadioItem value=""colm"">Colm Tuite</ContextMenuRadioItem>
+        </ContextMenuRadioGroup>
+      </ContextMenuContent>
+    </ContextMenu>
+  )
+}"
+,,Data Table ,"""use client""
+
+import * as React from ""react""
+import {
+  ColumnDef,
+  ColumnFiltersState,
+  SortingState,
+  VisibilityState,
+  flexRender,
+  getCoreRowModel,
+  getFilteredRowModel,
+  getPaginationRowModel,
+  getSortedRowModel,
+  useReactTable,
+} from ""@tanstack/react-table""
+import { ArrowUpDown, ChevronDown, MoreHorizontal } from ""lucide-react""
+
+import { Button } from ""@camped-ui/button""
+import { Checkbox } from ""@camped-ui/checkbox""
+import {
+  DropdownMenu,
+  DropdownMenuCheckboxItem,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuLabel,
+  DropdownMenuSeparator,
+  DropdownMenuTrigger,
+} from ""@camped-ui/dropdown-menu""
+import { Input } from ""@camped-ui/input""
+import {
+  Table,
+  TableBody,
+  TableCell,
+  TableHead,
+  TableHeader,
+  TableRow,
+} from ""@camped-ui/table""
+
+const data: Payment[] = [
+  {
+    id: ""m5gr84i9"",
+    amount: 316,
+    status: ""success"",
+    email: ""ken99@yahoo.com"",
+  },
+  {
+    id: ""3u1reuv4"",
+    amount: 242,
+    status: ""success"",
+    email: ""Abe45@gmail.com"",
+  },
+  {
+    id: ""derv1ws0"",
+    amount: 837,
+    status: ""processing"",
+    email: ""Monserrat44@gmail.com"",
+  },
+  {
+    id: ""5kma53ae"",
+    amount: 874,
+    status: ""success"",
+    email: ""Silas22@gmail.com"",
+  },
+  {
+    id: ""bhqecj4p"",
+    amount: 721,
+    status: ""failed"",
+    email: ""carmella@hotmail.com"",
+  },
+]
+
+export type Payment = {
+  id: string
+  amount: number
+  status: ""pending"" | ""processing"" | ""success"" | ""failed""
+  email: string
+}
+
+export const columns: ColumnDef<Payment>[] = [
+  {
+    id: ""select"",
+    header: ({ table }) => (
+      <Checkbox
+        checked={
+          table.getIsAllPageRowsSelected() ||
+          (table.getIsSomePageRowsSelected() && ""indeterminate"")
+        }
+        onCheckedChange={(value) => table.toggleAllPageRowsSelected(!!value)}
+        aria-label=""Select all""
+      />
+    ),
+    cell: ({ row }) => (
+      <Checkbox
+        checked={row.getIsSelected()}
+        onCheckedChange={(value) => row.toggleSelected(!!value)}
+        aria-label=""Select row""
+      />
+    ),
+    enableSorting: false,
+    enableHiding: false,
+  },
+  {
+    accessorKey: ""status"",
+    header: ""Status"",
+    cell: ({ row }) => (
+      <div className=""capitalize"">{row.getValue(""status"")}</div>
+    ),
+  },
+  {
+    accessorKey: ""email"",
+    header: ({ column }) => {
+      return (
+        <Button
+          variant=""ghost""
+          onClick={() => column.toggleSorting(column.getIsSorted() === ""asc"")}
+        >
+          Email
+          <ArrowUpDown className=""ml-2 h-4 w-4"" />
+        </Button>
+      )
+    },
+    cell: ({ row }) => <div className=""lowercase"">{row.getValue(""email"")}</div>,
+  },
+  {
+    accessorKey: ""amount"",
+    header: () => <div className=""text-right"">Amount</div>,
+    cell: ({ row }) => {
+      const amount = parseFloat(row.getValue(""amount""))
+
+      // Format the amount as a dollar amount
+      const formatted = new Intl.NumberFormat(""en-US"", {
+        style: ""currency"",
+        currency: ""USD"",
+      }).format(amount)
+
+      return <div className=""text-right font-medium"">{formatted}</div>
+    },
+  },
+  {
+    id: ""actions"",
+    enableHiding: false,
+    cell: ({ row }) => {
+      const payment = row.original
+
+      return (
+        <DropdownMenu>
+          <DropdownMenuTrigger asChild>
+            <Button variant=""ghost"" className=""h-8 w-8 p-0"">
+              <span className=""sr-only"">Open menu</span>
+              <MoreHorizontal className=""h-4 w-4"" />
+            </Button>
+          </DropdownMenuTrigger>
+          <DropdownMenuContent align=""end"">
+            <DropdownMenuLabel>Actions</DropdownMenuLabel>
+            <DropdownMenuItem
+              onClick={() => navigator.clipboard.writeText(payment.id)}
+            >
+              Copy payment ID
+            </DropdownMenuItem>
+            <DropdownMenuSeparator />
+            <DropdownMenuItem>View customer</DropdownMenuItem>
+            <DropdownMenuItem>View payment details</DropdownMenuItem>
+          </DropdownMenuContent>
+        </DropdownMenu>
+      )
+    },
+  },
+]
+
+export function DataTableDemo() {
+  const [sorting, setSorting] = React.useState<SortingState>([])
+  const [columnFilters, setColumnFilters] = React.useState<ColumnFiltersState>(
+    []
+  )
+  const [columnVisibility, setColumnVisibility] =
+    React.useState<VisibilityState>({})
+  const [rowSelection, setRowSelection] = React.useState({})
+
+  const table = useReactTable({
+    data,
+    columns,
+    onSortingChange: setSorting,
+    onColumnFiltersChange: setColumnFilters,
+    getCoreRowModel: getCoreRowModel(),
+    getPaginationRowModel: getPaginationRowModel(),
+    getSortedRowModel: getSortedRowModel(),
+    getFilteredRowModel: getFilteredRowModel(),
+    onColumnVisibilityChange: setColumnVisibility,
+    onRowSelectionChange: setRowSelection,
+    state: {
+      sorting,
+      columnFilters,
+      columnVisibility,
+      rowSelection,
+    },
+  })
+
+  return (
+    <div className=""w-full"">
+      <div className=""flex items-center py-4"">
+        <Input
+          placeholder=""Filter emails...""
+          value={(table.getColumn(""email"")?.getFilterValue() as string) ?? """"}
+          onChange={(event) =>
+            table.getColumn(""email"")?.setFilterValue(event.target.value)
+          }
+          className=""max-w-sm""
+        />
+        <DropdownMenu>
+          <DropdownMenuTrigger asChild>
+            <Button variant=""outline"" className=""ml-auto"">
+              Columns <ChevronDown className=""ml-2 h-4 w-4"" />
+            </Button>
+          </DropdownMenuTrigger>
+          <DropdownMenuContent align=""end"">
+            {table
+              .getAllColumns()
+              .filter((column) => column.getCanHide())
+              .map((column) => {
+                return (
+                  <DropdownMenuCheckboxItem
+                    key={column.id}
+                    className=""capitalize""
+                    checked={column.getIsVisible()}
+                    onCheckedChange={(value) =>
+                      column.toggleVisibility(!!value)
+                    }
+                  >
+                    {column.id}
+                  </DropdownMenuCheckboxItem>
+                )
+              })}
+          </DropdownMenuContent>
+        </DropdownMenu>
+      </div>
+      <div className=""rounded-md border"">
+        <Table>
+          <TableHeader>
+            {table.getHeaderGroups().map((headerGroup) => (
+              <TableRow key={headerGroup.id}>
+                {headerGroup.headers.map((header) => {
+                  return (
+                    <TableHead key={header.id}>
+                      {header.isPlaceholder
+                        ? null
+                        : flexRender(
+                            header.column.columnDef.header,
+                            header.getContext()
+                          )}
+                    </TableHead>
+                  )
+                })}
+              </TableRow>
+            ))}
+          </TableHeader>
+          <TableBody>
+            {table.getRowModel().rows?.length ? (
+              table.getRowModel().rows.map((row) => (
+                <TableRow
+                  key={row.id}
+                  data-state={row.getIsSelected() && ""selected""}
+                >
+                  {row.getVisibleCells().map((cell) => (
+                    <TableCell key={cell.id}>
+                      {flexRender(
+                        cell.column.columnDef.cell,
+                        cell.getContext()
+                      )}
+                    </TableCell>
+                  ))}
+                </TableRow>
+              ))
+            ) : (
+              <TableRow>
+                <TableCell
+                  colSpan={columns.length}
+                  className=""h-24 text-center""
+                >
+                  No results.
+                </TableCell>
+              </TableRow>
+            )}
+          </TableBody>
+        </Table>
+      </div>
+      <div className=""flex items-center justify-end space-x-2 py-4"">
+        <div className=""flex-1 text-sm text-muted-foreground"">
+          {table.getFilteredSelectedRowModel().rows.length} of{"" ""}
+          {table.getFilteredRowModel().rows.length} row(s) selected.
+        </div>
+        <div className=""space-x-2"">
+          <Button
+            variant=""outline""
+            size=""sm""
+            onClick={() => table.previousPage()}
+            disabled={!table.getCanPreviousPage()}
+          >
+            Previous
+          </Button>
+          <Button
+            variant=""outline""
+            size=""sm""
+            onClick={() => table.nextPage()}
+            disabled={!table.getCanNextPage()}
+          >
+            Next
+          </Button>
+        </div>
+      </div>
+    </div>
+  )
+}"
+,,Dropdown menu ,"import {
+  Cloud,
+  CreditCard,
+  Github,
+  Keyboard,
+  LifeBuoy,
+  LogOut,
+  Mail,
+  MessageSquare,
+  Plus,
+  PlusCircle,
+  Settings,
+  User,
+  UserPlus,
+  Users,
+} from ""lucide-react""
+
+import { Button } from ""@camped-ui/button""
+import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuGroup,
+  DropdownMenuItem,
+  DropdownMenuLabel,
+  DropdownMenuPortal,
+  DropdownMenuSeparator,
+  DropdownMenuShortcut,
+  DropdownMenuSub,
+  DropdownMenuSubContent,
+  DropdownMenuSubTrigger,
+  DropdownMenuTrigger,
+} from ""@camped-ui/dropdown-menu""
+
+export function DropdownMenuDemo() {
+  return (
+    <DropdownMenu>
+      <DropdownMenuTrigger asChild>
+        <Button variant=""outline"">Open</Button>
+      </DropdownMenuTrigger>
+      <DropdownMenuContent className=""w-56"">
+        <DropdownMenuLabel>My Account</DropdownMenuLabel>
+        <DropdownMenuSeparator />
+        <DropdownMenuGroup>
+          <DropdownMenuItem>
+            <User className=""mr-2 h-4 w-4"" />
+            <span>Profile</span>
+            <DropdownMenuShortcut>??P</DropdownMenuShortcut>
+          </DropdownMenuItem>
+          <DropdownMenuItem>
+            <CreditCard className=""mr-2 h-4 w-4"" />
+            <span>Billing</span>
+            <DropdownMenuShortcut>?B</DropdownMenuShortcut>
+          </DropdownMenuItem>
+          <DropdownMenuItem>
+            <Settings className=""mr-2 h-4 w-4"" />
+            <span>Settings</span>
+            <DropdownMenuShortcut>?S</DropdownMenuShortcut>
+          </DropdownMenuItem>
+          <DropdownMenuItem>
+            <Keyboard className=""mr-2 h-4 w-4"" />
+            <span>Keyboard shortcuts</span>
+            <DropdownMenuShortcut>?K</DropdownMenuShortcut>
+          </DropdownMenuItem>
+        </DropdownMenuGroup>
+        <DropdownMenuSeparator />
+        <DropdownMenuGroup>
+          <DropdownMenuItem>
+            <Users className=""mr-2 h-4 w-4"" />
+            <span>Team</span>
+          </DropdownMenuItem>
+          <DropdownMenuSub>
+            <DropdownMenuSubTrigger>
+              <UserPlus className=""mr-2 h-4 w-4"" />
+              <span>Invite users</span>
+            </DropdownMenuSubTrigger>
+            <DropdownMenuPortal>
+              <DropdownMenuSubContent>
+                <DropdownMenuItem>
+                  <Mail className=""mr-2 h-4 w-4"" />
+                  <span>Email</span>
+                </DropdownMenuItem>
+                <DropdownMenuItem>
+                  <MessageSquare className=""mr-2 h-4 w-4"" />
+                  <span>Message</span>
+                </DropdownMenuItem>
+                <DropdownMenuSeparator />
+                <DropdownMenuItem>
+                  <PlusCircle className=""mr-2 h-4 w-4"" />
+                  <span>More...</span>
+                </DropdownMenuItem>
+              </DropdownMenuSubContent>
+            </DropdownMenuPortal>
+          </DropdownMenuSub>
+          <DropdownMenuItem>
+            <Plus className=""mr-2 h-4 w-4"" />
+            <span>New Team</span>
+            <DropdownMenuShortcut>?+T</DropdownMenuShortcut>
+          </DropdownMenuItem>
+        </DropdownMenuGroup>
+        <DropdownMenuSeparator />
+        <DropdownMenuItem>
+          <Github className=""mr-2 h-4 w-4"" />
+          <span>GitHub</span>
+        </DropdownMenuItem>
+        <DropdownMenuItem>
+          <LifeBuoy className=""mr-2 h-4 w-4"" />
+          <span>Support</span>
+        </DropdownMenuItem>
+        <DropdownMenuItem disabled>
+          <Cloud className=""mr-2 h-4 w-4"" />
+          <span>API</span>
+        </DropdownMenuItem>
+        <DropdownMenuSeparator />
+        <DropdownMenuItem>
+          <LogOut className=""mr-2 h-4 w-4"" />
+          <span>Log out</span>
+          <DropdownMenuShortcut>??Q</DropdownMenuShortcut>
+        </DropdownMenuItem>
+      </DropdownMenuContent>
+    </DropdownMenu>
+  )
+}"
+,,Hover card ,"import { CalendarDays } from ""lucide-react""
+
+import {
+  Avatar,
+  AvatarFallback,
+  AvatarImage,
+} from ""@camped-ui/avatar""
+import { Button } from ""@camped-ui/button""
+import {
+  HoverCard,
+  HoverCardContent,
+  HoverCardTrigger,
+} from ""@camped-ui/hover-card""
+
+export function HoverCardDemo() {
+  return (
+    <HoverCard>
+      <HoverCardTrigger asChild>
+        <Button variant=""link"">@nextjs</Button>
+      </HoverCardTrigger>
+      <HoverCardContent className=""w-80"">
+        <div className=""flex justify-between space-x-4"">
+          <Avatar>
+            <AvatarImage src=""https://github.com/vercel.png"" />
+            <AvatarFallback>VC</AvatarFallback>
+          </Avatar>
+          <div className=""space-y-1"">
+            <h4 className=""text-sm font-semibold"">@nextjs</h4>
+            <p className=""text-sm"">
+              The React Framework – created and maintained by @vercel.
+            </p>
+            <div className=""flex items-center pt-2"">
+              <CalendarDays className=""mr-2 h-4 w-4 opacity-70"" />{"" ""}
+              <span className=""text-xs text-muted-foreground"">
+                Joined December 2021
+              </span>
+            </div>
+          </div>
+        </div>
+      </HoverCardContent>
+    </HoverCard>
+  )
+}"
+,,Label ,"import { Checkbox } from ""@camped-ui/checkbox""
+import { Label } from ""@camped-ui/label""
+
+export function LabelDemo() {
+  return (
+    <div>
+      <div className=""flex items-center space-x-2"">
+        <Checkbox id=""terms"" />
+        <Label htmlFor=""terms"">Accept terms and conditions</Label>
+      </div>
+    </div>
+  )
+}"
+,,MenuBar,"import {
+  Menubar,
+  MenubarCheckboxItem,
+  MenubarContent,
+  MenubarItem,
+  MenubarMenu,
+  MenubarRadioGroup,
+  MenubarRadioItem,
+  MenubarSeparator,
+  MenubarShortcut,
+  MenubarSub,
+  MenubarSubContent,
+  MenubarSubTrigger,
+  MenubarTrigger,
+} from ""@camped-ui/menubar""
+
+export function MenubarDemo() {
+  return (
+    <Menubar>
+      <MenubarMenu>
+        <MenubarTrigger>File</MenubarTrigger>
+        <MenubarContent>
+          <MenubarItem>
+            New Tab <MenubarShortcut>?T</MenubarShortcut>
+          </MenubarItem>
+          <MenubarItem>
+            New Window <MenubarShortcut>?N</MenubarShortcut>
+          </MenubarItem>
+          <MenubarItem disabled>New Incognito Window</MenubarItem>
+          <MenubarSeparator />
+          <MenubarSub>
+            <MenubarSubTrigger>Share</MenubarSubTrigger>
+            <MenubarSubContent>
+              <MenubarItem>Email link</MenubarItem>
+              <MenubarItem>Messages</MenubarItem>
+              <MenubarItem>Notes</MenubarItem>
+            </MenubarSubContent>
+          </MenubarSub>
+          <MenubarSeparator />
+          <MenubarItem>
+            Print... <MenubarShortcut>?P</MenubarShortcut>
+          </MenubarItem>
+        </MenubarContent>
+      </MenubarMenu>
+      <MenubarMenu>
+        <MenubarTrigger>Edit</MenubarTrigger>
+        <MenubarContent>
+          <MenubarItem>
+            Undo <MenubarShortcut>?Z</MenubarShortcut>
+          </MenubarItem>
+          <MenubarItem>
+            Redo <MenubarShortcut>??Z</MenubarShortcut>
+          </MenubarItem>
+          <MenubarSeparator />
+          <MenubarSub>
+            <MenubarSubTrigger>Find</MenubarSubTrigger>
+            <MenubarSubContent>
+              <MenubarItem>Search the web</MenubarItem>
+              <MenubarSeparator />
+              <MenubarItem>Find...</MenubarItem>
+              <MenubarItem>Find Next</MenubarItem>
+              <MenubarItem>Find Previous</MenubarItem>
+            </MenubarSubContent>
+          </MenubarSub>
+          <MenubarSeparator />
+          <MenubarItem>Cut</MenubarItem>
+          <MenubarItem>Copy</MenubarItem>
+          <MenubarItem>Paste</MenubarItem>
+        </MenubarContent>
+      </MenubarMenu>
+      <MenubarMenu>
+        <MenubarTrigger>View</MenubarTrigger>
+        <MenubarContent>
+          <MenubarCheckboxItem>Always Show Bookmarks Bar</MenubarCheckboxItem>
+          <MenubarCheckboxItem checked>
+            Always Show Full URLs
+          </MenubarCheckboxItem>
+          <MenubarSeparator />
+          <MenubarItem inset>
+            Reload <MenubarShortcut>?R</MenubarShortcut>
+          </MenubarItem>
+          <MenubarItem disabled inset>
+            Force Reload <MenubarShortcut>??R</MenubarShortcut>
+          </MenubarItem>
+          <MenubarSeparator />
+          <MenubarItem inset>Toggle Fullscreen</MenubarItem>
+          <MenubarSeparator />
+          <MenubarItem inset>Hide Sidebar</MenubarItem>
+        </MenubarContent>
+      </MenubarMenu>
+      <MenubarMenu>
+        <MenubarTrigger>Profiles</MenubarTrigger>
+        <MenubarContent>
+          <MenubarRadioGroup value=""benoit"">
+            <MenubarRadioItem value=""andy"">Andy</MenubarRadioItem>
+            <MenubarRadioItem value=""benoit"">Benoit</MenubarRadioItem>
+            <MenubarRadioItem value=""Luis"">Luis</MenubarRadioItem>
+          </MenubarRadioGroup>
+          <MenubarSeparator />
+          <MenubarItem inset>Edit...</MenubarItem>
+          <MenubarSeparator />
+          <MenubarItem inset>Add Profile...</MenubarItem>
+        </MenubarContent>
+      </MenubarMenu>
+    </Menubar>
+  )
+}"
+,,Navigation menu ,"""use client""
+
+import * as React from ""react""
+import Link from ""next/link""
+
+import { cn } from ""@camped-ui/lib""
+import { Icons } from ""@/components/icons""
+import {
+  NavigationMenu,
+  NavigationMenuContent,
+  NavigationMenuItem,
+  NavigationMenuLink,
+  NavigationMenuList,
+  NavigationMenuTrigger,
+  navigationMenuTriggerStyle,
+} from ""@camped-ui/navigation-menu""
+
+const components: { title: string; href: string; description: string }[] = [
+  {
+    title: ""Alert Dialog"",
+    href: ""/docs/primitives/alert-dialog"",
+    description:
+      ""A modal dialog that interrupts the user with important content and expects a response."",
+  },
+  {
+    title: ""Hover Card"",
+    href: ""/docs/primitives/hover-card"",
+    description:
+      ""For sighted users to preview content available behind a link."",
+  },
+  {
+    title: ""Progress"",
+    href: ""/docs/primitives/progress"",
+    description:
+      ""Displays an indicator showing the completion progress of a task, typically displayed as a progress bar."",
+  },
+  {
+    title: ""Scroll-area"",
+    href: ""/docs/primitives/scroll-area"",
+    description: ""Visually or semantically separates content."",
+  },
+  {
+    title: ""Tabs"",
+    href: ""/docs/primitives/tabs"",
+    description:
+      ""A set of layered sections of content—known as tab panels—that are displayed one at a time."",
+  },
+  {
+    title: ""Tooltip"",
+    href: ""/docs/primitives/tooltip"",
+    description:
+      ""A popup that displays information related to an element when the element receives keyboard focus or the mouse hovers over it."",
+  },
+]
+
+export function NavigationMenuDemo() {
+  return (
+    <NavigationMenu>
+      <NavigationMenuList>
+        <NavigationMenuItem>
+          <NavigationMenuTrigger>Getting started</NavigationMenuTrigger>
+          <NavigationMenuContent>
+            <ul className=""grid gap-3 p-6 md:w-[400px] lg:w-[500px] lg:grid-cols-[.75fr_1fr]"">
+              <li className=""row-span-3"">
+                <NavigationMenuLink asChild>
+                  <a
+                    className=""flex h-full w-full select-none flex-col justify-end rounded-md bg-gradient-to-b from-muted/50 to-muted p-6 no-underline outline-none focus:shadow-md""
+                    href=""/""
+                  >
+                    <Icons.logo className=""h-6 w-6"" />
+                    <div className=""mb-2 mt-4 text-lg font-medium"">
+                     Camped
+                    </div>
+                    <p className=""text-sm leading-tight text-muted-foreground"">
+                      Beautifully designed components built with Radix UI and
+                      Tailwind CSS.
+                    </p>
+                  </a>
+                </NavigationMenuLink>
+              </li>
+              <ListItem href=""/docs"" title=""Introduction"">
+                Re-usable components built using Radix UI and Tailwind CSS.
+              </ListItem>
+              <ListItem href=""/docs/installation"" title=""Installation"">
+                How to install dependencies and structure your app.
+              </ListItem>
+              <ListItem href=""/docs/primitives/typography"" title=""Typography"">
+                Styles for headings, paragraphs, lists...etc
+              </ListItem>
+            </ul>
+          </NavigationMenuContent>
+        </NavigationMenuItem>
+        <NavigationMenuItem>
+          <NavigationMenuTrigger>Components</NavigationMenuTrigger>
+          <NavigationMenuContent>
+            <ul className=""grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px] "">
+              {components.map((component) => (
+                <ListItem
+                  key={component.title}
+                  title={component.title}
+                  href={component.href}
+                >
+                  {component.description}
+                </ListItem>
+              ))}
+            </ul>
+          </NavigationMenuContent>
+        </NavigationMenuItem>
+        <NavigationMenuItem>
+          <Link href=""/docs"" legacyBehavior passHref>
+            <NavigationMenuLink className={navigationMenuTriggerStyle()}>
+              Documentation
+            </NavigationMenuLink>
+          </Link>
+        </NavigationMenuItem>
+      </NavigationMenuList>
+    </NavigationMenu>
+  )
+}
+
+const ListItem = React.forwardRef<
+  React.ElementRef<""a"">,
+  React.ComponentPropsWithoutRef<""a"">
+>(({ className, title, children, ...props }, ref) => {
+  return (
+    <li>
+      <NavigationMenuLink asChild>
+        <a
+          ref={ref}
+          className={cn(
+            ""block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground"",
+            className
+          )}
+          {...props}
+        >
+          <div className=""text-sm font-medium leading-none"">{title}</div>
+          <p className=""line-clamp-2 text-sm leading-snug text-muted-foreground"">
+            {children}
+          </p>
+        </a>
+      </NavigationMenuLink>
+    </li>
+  )
+})
+ListItem.displayName = ""ListItem"""
+,,Progress ,"""use client""
+
+import * as React from ""react""
+
+import { Progress } from ""@camped-ui/progress""
+
+export function ProgressDemo() {
+  const [progress, setProgress] = React.useState(13)
+
+  React.useEffect(() => {
+    const timer = setTimeout(() => setProgress(66), 500)
+    return () => clearTimeout(timer)
+  }, [])
+
+  return <Progress value={progress} className=""w-[60%]"" />
+}"
+,,Scroll area ,"import * as React from ""react""
+
+import { ScrollArea } from ""@camped-ui/scroll-area""
+import { Separator } from ""@camped-ui/separator""
+
+const tags = Array.from({ length: 50 }).map(
+  (_, i, a) => `v1.2.0-beta.${a.length - i}`
+)
+
+export function ScrollAreaDemo() {
+  return (
+    <ScrollArea className=""h-72 w-48 rounded-md border"">
+      <div className=""p-4"">
+        <h4 className=""mb-4 text-sm font-medium leading-none"">Tags</h4>
+        {tags.map((tag) => (
+          <>
+            <div key={tag} className=""text-sm"">
+              {tag}
+            </div>
+            <Separator className=""my-2"" />
+          </>
+        ))}
+      </div>
+    </ScrollArea>
+  )
+}"
+,,Seperator ,"import { Separator } from ""@camped-ui/separator""
+
+export function SeparatorDemo() {
+  return (
+    <div>
+      <div className=""space-y-1"">
+        <h4 className=""text-sm font-medium leading-none"">Radix Primitives</h4>
+        <p className=""text-sm text-muted-foreground"">
+          An open-source UI component library.
+        </p>
+      </div>
+      <Separator className=""my-4"" />
+      <div className=""flex h-5 items-center space-x-4 text-sm"">
+        <div>Blog</div>
+        <Separator orientation=""vertical"" />
+        <div>Docs</div>
+        <Separator orientation=""vertical"" />
+        <div>Source</div>
+      </div>
+    </div>
+  )
+}"
+,,Skeleton ,"import { Skeleton } from ""@camped-ui/skeleton""
+
+export function SkeletonDemo() {
+  return (
+    <div className=""flex items-center space-x-4"">
+      <Skeleton className=""h-12 w-12 rounded-full"" />
+      <div className=""space-y-2"">
+        <Skeleton className=""h-4 w-[250px]"" />
+        <Skeleton className=""h-4 w-[200px]"" />
+      </div>
+    </div>
+  )
+}"
+,,Slider ,"import { cn } from ""@camped-ui/lib""
+import { Slider } from ""@camped-ui/slider""
+
+type SliderProps = React.ComponentProps<typeof Slider>
+
+export function SliderDemo({ className, ...props }: SliderProps) {
+  return (
+    <Slider
+      defaultValue={[50]}
+      max={100}
+      step={1}
+      className={cn(""w-[60%]"", className)}
+      {...props}
+    />
+  )
+}"
+,,Switch ,"import { Label } from ""@camped-ui/label""
+import { Switch } from ""@camped-ui/switch""
+
+export function SwitchDemo() {
+  return (
+    <div className=""flex items-center space-x-2"">
+      <Switch id=""airplane-mode"" />
+      <Label htmlFor=""airplane-mode"">Airplane Mode</Label>
+    </div>
+  )
+}"
+,,Table,"import {
+  Table,
+  TableBody,
+  TableCaption,
+  TableCell,
+  TableFooter,
+  TableHead,
+  TableHeader,
+  TableRow,
+} from ""@camped-ui/table""
+
+const invoices = [
+  {
+    invoice: ""INV001"",
+    paymentStatus: ""Paid"",
+    totalAmount: ""$250.00"",
+    paymentMethod: ""Credit Card"",
+  },
+  {
+    invoice: ""INV002"",
+    paymentStatus: ""Pending"",
+    totalAmount: ""$150.00"",
+    paymentMethod: ""PayPal"",
+  },
+  {
+    invoice: ""INV003"",
+    paymentStatus: ""Unpaid"",
+    totalAmount: ""$350.00"",
+    paymentMethod: ""Bank Transfer"",
+  },
+  {
+    invoice: ""INV004"",
+    paymentStatus: ""Paid"",
+    totalAmount: ""$450.00"",
+    paymentMethod: ""Credit Card"",
+  },
+  {
+    invoice: ""INV005"",
+    paymentStatus: ""Paid"",
+    totalAmount: ""$550.00"",
+    paymentMethod: ""PayPal"",
+  },
+  {
+    invoice: ""INV006"",
+    paymentStatus: ""Pending"",
+    totalAmount: ""$200.00"",
+    paymentMethod: ""Bank Transfer"",
+  },
+  {
+    invoice: ""INV007"",
+    paymentStatus: ""Unpaid"",
+    totalAmount: ""$300.00"",
+    paymentMethod: ""Credit Card"",
+  },
+]
+
+export function TableDemo() {
+  return (
+    <Table>
+      <TableCaption>A list of your recent invoices.</TableCaption>
+      <TableHeader>
+        <TableRow>
+          <TableHead className=""w-[100px]"">Invoice</TableHead>
+          <TableHead>Status</TableHead>
+          <TableHead>Method</TableHead>
+          <TableHead className=""text-right"">Amount</TableHead>
+        </TableRow>
+      </TableHeader>
+      <TableBody>
+        {invoices.map((invoice) => (
+          <TableRow key={invoice.invoice}>
+            <TableCell className=""font-medium"">{invoice.invoice}</TableCell>
+            <TableCell>{invoice.paymentStatus}</TableCell>
+            <TableCell>{invoice.paymentMethod}</TableCell>
+            <TableCell className=""text-right"">{invoice.totalAmount}</TableCell>
+          </TableRow>
+        ))}
+      </TableBody>
+      <TableFooter>
+        <TableRow>
+          <TableCell colSpan={3}>Total</TableCell>
+          <TableCell className=""text-right"">$2,500.00</TableCell>
+        </TableRow>
+      </TableFooter>
+    </Table>
+  )
+}"
+,,Tabs,"import { Button } from ""@camped-ui/button""
+import {
+  Card,
+  CardContent,
+  CardDescription,
+  CardFooter,
+  CardHeader,
+  CardTitle,
+} from ""@camped-ui/card""
+import { Input } from ""@camped-ui/input""
+import { Label } from ""@camped-ui/label""
+import {
+  Tabs,
+  TabsContent,
+  TabsList,
+  TabsTrigger,
+} from ""@camped-ui/tabs""
+
+export function TabsDemo() {
+  return (
+    <Tabs defaultValue=""account"" className=""w-[400px]"">
+      <TabsList className=""grid w-full grid-cols-2"">
+        <TabsTrigger value=""account"">Account</TabsTrigger>
+        <TabsTrigger value=""password"">Password</TabsTrigger>
+      </TabsList>
+      <TabsContent value=""account"">
+        <Card>
+          <CardHeader>
+            <CardTitle>Account</CardTitle>
+            <CardDescription>
+              Make changes to your account here. Click save when you're done.
+            </CardDescription>
+          </CardHeader>
+          <CardContent className=""space-y-2"">
+            <div className=""space-y-1"">
+              <Label htmlFor=""name"">Name</Label>
+              <Input id=""name"" defaultValue=""Pedro Duarte"" />
+            </div>
+            <div className=""space-y-1"">
+              <Label htmlFor=""username"">Username</Label>
+              <Input id=""username"" defaultValue=""@peduarte"" />
+            </div>
+          </CardContent>
+          <CardFooter>
+            <Button>Save changes</Button>
+          </CardFooter>
+        </Card>
+      </TabsContent>
+      <TabsContent value=""password"">
+        <Card>
+          <CardHeader>
+            <CardTitle>Password</CardTitle>
+            <CardDescription>
+              Change your password here. After saving, you'll be logged out.
+            </CardDescription>
+          </CardHeader>
+          <CardContent className=""space-y-2"">
+            <div className=""space-y-1"">
+              <Label htmlFor=""current"">Current password</Label>
+              <Input id=""current"" type=""password"" />
+            </div>
+            <div className=""space-y-1"">
+              <Label htmlFor=""new"">New password</Label>
+              <Input id=""new"" type=""password"" />
+            </div>
+          </CardContent>
+          <CardFooter>
+            <Button>Save password</Button>
+          </CardFooter>
+        </Card>
+      </TabsContent>
+    </Tabs>
+  )
+}"
+,,Toggle,"import { Bold } from ""lucide-react""
+
+import { Toggle } from ""@camped-ui/toggle""
+
+export function ToggleDemo() {
+  return (
+    <Toggle aria-label=""Toggle italic"">
+      <Bold className=""h-4 w-4"" />
+    </Toggle>
+  )
+}"
+,,Tool tip ,"import { Button } from ""@camped-ui/button""
+import {
+  Tooltip,
+  TooltipContent,
+  TooltipProvider,
+  TooltipTrigger,
+} from ""@camped-ui/tooltip""
+
+export function TooltipDemo() {
+  return (
+    <TooltipProvider>
+      <Tooltip>
+        <TooltipTrigger asChild>
+          <Button variant=""outline"">Hover</Button>
+        </TooltipTrigger>
+        <TooltipContent>
+          <p>Add to library</p>
+        </TooltipContent>
+      </Tooltip>
+    </TooltipProvider>
+  )
+}"
+,,Tree view ,"""use client"";
+
+import { Tree, Folder, File, CollapseButton } from ""@camped-ui/tree-view"";
+
+const TreeFileDemo = () => {
+  const elements = [
+    {
+      id: ""1"",
+      isSelectable: true,
+      name: ""src"",
+      children: [
+        {
+          id: ""2"",
+          isSelectable: true,
+          name: ""app.tsx"",
+        },
+        {
+          id: ""3"",
+          isSelectable: true,
+          name: ""components"",
+          children: [
+            {
+              id: ""20"",
+              isSelectable: true,
+              name: ""pages"",
+              children: [
+                {
+                  id: ""21"",
+                  isSelectable: true,
+                  name: ""interface.ts"",
+                },
+              ],
+            },
+          ],
+        },
+        {
+          id: ""6"",
+          isSelectable: true,
+          name: ""ui"",
+          children: [
+            {
+              id: ""7"",
+              isSelectable: true,
+              name: ""carousel.tsx"",
+            },
+          ],
+        },
+      ],
+    },
+  ];
+  return (
+    <Tree
+      className=""rounded-md h-60 bg-background overflow-hidden p-2""
+      initialSelectedId=""21""
+      elements={elements}
+    >
+      <Folder element=""src"" value=""1"">
+        <File value=""2"">
+          <p> app.tsx </p>
+        </File>
+        <Folder value=""3"" element=""components"">
+          <Folder value=""20"" element=""pages"">
+            <File value=""21"">
+              <p>interface.ts</p>
+            </File>
+          </Folder>
+        </Folder>
+        <Folder value=""6"" element=""ui"">
+          <File value=""7"">
+            <p>carousel.tsx</p>
+          </File>
+        </Folder>
+      </Folder>
+      <CollapseButton elements={elements} />
+    </Tree>
+  );
+};
+
+export TreeFileDemo;"
+,,Input ,"import { Input } from ""@camped-ui/input""
+
+export function InputDemo() {
+  return <Input type=""email"" placeholder=""Email"" />
+}"
+,,Input OTP,"import {
+    InputOTP,
+    InputOTPGroup,
+    InputOTPSeparator,
+    InputOTPSlot,
+  } from ""@camped-ui/input-otp""
+  
+  export function InputOTPDemo() {
+    return (
+      <InputOTP
+        maxLength={6}
+        render={({ slots }) => (
+          <>
+            <InputOTPGroup>
+              {slots.slice(0, 3).map((slot, index) => (
+                <InputOTPSlot key={index} {...slot} />
+              ))}{"" ""}
+            </InputOTPGroup>
+            <InputOTPSeparator />
+            <InputOTPGroup>
+              {slots.slice(3).map((slot, index) => (
+                <InputOTPSlot key={index + 3} {...slot} />
+              ))}
+            </InputOTPGroup>
+          </>
+        )}
+      />
+    )
+  }"
+,,Password Input ,"import { PasswordInput } from ""@camped-ui/password-input""
+
+export function InputDemo() {
+  return <PasswordInput placeholder=""********""  />
+}"
+,,Calendar,"""use client""
+
+import * as React from ""react""
+
+import { Calendar } from ""@camped-ui/calendar""
+
+export function CalendarDemo() {
+  const [date, setDate] = React.useState<Date | undefined>(new Date())
+
+  return (
+    <Calendar
+      mode=""single""
+      selected={date}
+      onSelect={setDate}
+      className=""rounded-md border""
+    />
+  )
+}"
+,,Checkbox ,"""use client""
+
+import { Checkbox } from ""@camped-ui/checkbox""
+
+export function CheckboxDemo() {
+  return (
+    <div className=""flex items-center space-x-2"">
+      <Checkbox id=""terms"" />
+      <label
+        htmlFor=""terms""
+        className=""text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70""
+      >
+        Accept terms and conditions
+      </label>
+    </div>
+  )
+}"
+,,Date Picker ,"""use client""
+
+import * as React from ""react""
+import { format } from ""date-fns""
+import { Calendar as CalendarIcon } from ""lucide-react""
+
+import { cn } from ""@camped-ui/lib""
+import { Button } from ""@camped-ui/button""
+import { Calendar } from ""@camped-ui/calendar""
+import {
+  Popover,
+  PopoverContent,
+  PopoverTrigger,
+} from ""@camped-ui/popover""
+
+export function DatePickerDemo() {
+  const [date, setDate] = React.useState<Date>()
+
+  return (
+    <Popover>
+      <PopoverTrigger asChild>
+        <Button
+          variant={""outline""}
+          className={cn(
+            ""w-[280px] justify-start text-left font-normal"",
+            !date && ""text-muted-foreground""
+          )}
+        >
+          <CalendarIcon className=""mr-2 h-4 w-4"" />
+          {date ? format(date, ""PPP"") : <span>Pick a date</span>}
+        </Button>
+      </PopoverTrigger>
+      <PopoverContent className=""w-auto p-0"">
+        <Calendar
+          mode=""single""
+          selected={date}
+          onSelect={setDate}
+          initialFocus
+        />
+      </PopoverContent>
+    </Popover>
+  )
+}"
+,,File upload ,"""use client"";
+
+import { useState } from ""react"";
+import {
+  FileUploader,
+  FileUploaderContent,
+  FileUploaderItem,
+  FileInput,
+} from ""@camped-ui/file-uploader"";
+import { Paperclip } from ""lucide-react"";
+
+const FileSvgDraw = () => {
+  return (
+    <>
+      <svg
+        className=""w-8 h-8 mb-3 text-gray-500 dark:text-gray-400""
+        aria-hidden=""true""
+        xmlns=""http://www.w3.org/2000/svg""
+        fill=""none""
+        viewBox=""0 0 20 16""
+      >
+        <path
+          stroke=""currentColor""
+          strokeLinecap=""round""
+          strokeLinejoin=""round""
+          strokeWidth=""2""
+          d=""M13 13h3a3 3 0 0 0 0-6h-.025A5.56 5.56 0 0 0 16 6.5 5.5 5.5 0 0 0 5.207 5.021C5.137 5.017 5.071 5 5 5a4 4 0 0 0 0 8h2.167M10 15V6m0 0L8 8m2-2 2 2""
+        />
+      </svg>
+      <p className=""mb-1 text-sm text-gray-500 dark:text-gray-400"">
+        <span className=""font-semibold"">Click to upload</span>
+        &nbsp; or drag and drop
+      </p>
+      <p className=""text-xs text-gray-500 dark:text-gray-400"">
+        SVG, PNG, JPG or GIF
+      </p>
+    </>
+  );
+};
+
+const FileUploaderTest = () => {
+  const [files, setFiles] = useState<File[] | null>(null);
+
+  const dropZoneConfig = {
+    maxFiles: 5,
+    maxSize: 1024 * 1024 * 4,
+    multiple: true,
+  };
+
+  return (
+    <FileUploader
+      value={files}
+      onValueChange={setFiles}
+      dropzoneOptions={dropZoneConfig}
+      className=""relative bg-background rounded-lg p-2""
+    >
+      <FileInput className=""outline-dashed outline-1 outline-white"">
+        <div className=""flex items-center justify-center flex-col pt-3 pb-4 w-full "">
+          <FileSvgDraw />
+        </div>
+      </FileInput>
+      <FileUploaderContent>
+        {files &&
+          files.length > 0 &&
+          files.map((file, i) => (
+            <FileUploaderItem key={i} index={i}>
+              <Paperclip className=""h-4 w-4 stroke-current"" />
+              <span>{file.name}</span>
+            </FileUploaderItem>
+          ))}
+      </FileUploaderContent>
+    </FileUploader>
+  );
+};
+
+export FileUploaderTest;"

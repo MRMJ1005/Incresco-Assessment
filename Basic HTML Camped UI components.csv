@@ -1,0 +1,1981 @@
+input,output
+"{""title"": ""Course Progress"", ""progress"": ""70%"", ""button"": ""Continue Learning""}","<Card>
+  <Typography variant=""h2"">Course Progress</Typography>
+  <Progress value={70} />
+  <Button>Continue Learning</Button>
+</Card>"
+"{""title"": ""FAQs"", ""accordion"": [""What is CampEd?"", ""How to enroll?"", ""Is it free?""], ""button"": ""Ask More""}","<Card>
+  <Typography variant=""h2"">FAQs</Typography>
+  <Accordion>
+    <AccordionItem title=""What is CampEd?"" />
+    <AccordionItem title=""How to enroll?"" />
+    <AccordionItem title=""Is it free?"" />
+  </Accordion>
+  <Button>Ask More</Button>
+</Card>"
+"{""title"": ""Settings"", ""description"": ""Enable notifications and updates"", ""switch"": ""Notifications"", ""checkbox"": ""Receive updates"", ""button"": ""Save""}","<Card>
+  <Typography variant=""h2"">Settings</Typography>
+  <Typography>Enable notifications and updates</Typography>
+  <Switch label=""Notifications"" />
+  <Checkbox label=""Receive updates"" />
+  <Button>Save</Button>
+</Card>"
+"{""title"": ""FAQs"", ""accordion"": [""What is CampEd?"", ""How to enroll?"", ""Is it free?""], ""button"": ""Ask More""}","<Card>
+  <Typography variant=""h2"">FAQs</Typography>
+  <Accordion>
+    <AccordionItem title=""What is CampEd?"" />
+    <AccordionItem title=""How to enroll?"" />
+    <AccordionItem title=""Is it free?"" />
+  </Accordion>
+  <Button>Ask More</Button>
+</Card>"
+"{""title"": ""Join Our Community"", ""subtitle"": ""Be a part of something big"", ""avatar"": ""https://example.com/avatar1.png"", ""badge"": ""New"", ""button"": ""Sign Up Now""}","<Card>
+  <Avatar src=""https://example.com/avatar1.png"" alt=""User"" />
+  <Typography variant=""h2"">Join Our Community</Typography>
+  <Typography>Be a part of something big</Typography>
+  <Badge>New</Badge>
+  <Button>Sign Up Now</Button>
+</Card>"
+"{""title"": ""Course Progress"", ""progress"": ""70%"", ""button"": ""Continue Learning""}","<Card>
+  <Typography variant=""h2"">Course Progress</Typography>
+  <Progress value={70} />
+  <Button>Continue Learning</Button>
+</Card>"
+"{""title"": ""FAQs"", ""accordion"": [""What is CampEd?"", ""How to enroll?"", ""Is it free?""], ""button"": ""Ask More""}","<Card>
+  <Typography variant=""h2"">FAQs</Typography>
+  <Accordion>
+    <AccordionItem title=""What is CampEd?"" />
+    <AccordionItem title=""How to enroll?"" />
+    <AccordionItem title=""Is it free?"" />
+  </Accordion>
+  <Button>Ask More</Button>
+</Card>"
+"{""title"": ""Course Progress"", ""progress"": ""70%"", ""button"": ""Continue Learning""}","<Card>
+  <Typography variant=""h2"">Course Progress</Typography>
+  <Progress value={70} />
+  <Button>Continue Learning</Button>
+</Card>"
+"{""title"": ""Contact Support"", ""tooltip"": ""We usually respond within 24 hours."", ""textarea"": ""Your message"", ""button"": ""Send""}","<Card>
+  <Typography variant=""h2"">Contact Support</Typography>
+  <Tooltip content=""We usually respond within 24 hours."">
+    <TextArea placeholder=""Your message"" />
+  </Tooltip>
+  <Button>Send</Button>
+</Card>"
+"{""title"": ""Contact Support"", ""tooltip"": ""We usually respond within 24 hours."", ""textarea"": ""Your message"", ""button"": ""Send""}","<Card>
+  <Typography variant=""h2"">Contact Support</Typography>
+  <Tooltip content=""We usually respond within 24 hours."">
+    <TextArea placeholder=""Your message"" />
+  </Tooltip>
+  <Button>Send</Button>
+</Card>"
+"{""title"": ""Settings"", ""description"": ""Enable notifications and updates"", ""switch"": ""Notifications"", ""checkbox"": ""Receive updates"", ""button"": ""Save""}","<Card>
+  <Typography variant=""h2"">Settings</Typography>
+  <Typography>Enable notifications and updates</Typography>
+  <Switch label=""Notifications"" />
+  <Checkbox label=""Receive updates"" />
+  <Button>Save</Button>
+</Card>"
+"{""title"": ""Settings"", ""description"": ""Enable notifications and updates"", ""switch"": ""Notifications"", ""checkbox"": ""Receive updates"", ""button"": ""Save""}","<Card>
+  <Typography variant=""h2"">Settings</Typography>
+  <Typography>Enable notifications and updates</Typography>
+  <Switch label=""Notifications"" />
+  <Checkbox label=""Receive updates"" />
+  <Button>Save</Button>
+</Card>"
+"{""title"": ""Join Our Community"", ""subtitle"": ""Be a part of something big"", ""avatar"": ""https://example.com/avatar1.png"", ""badge"": ""New"", ""button"": ""Sign Up Now""}","<Card>
+  <Avatar src=""https://example.com/avatar1.png"" alt=""User"" />
+  <Typography variant=""h2"">Join Our Community</Typography>
+  <Typography>Be a part of something big</Typography>
+  <Badge>New</Badge>
+  <Button>Sign Up Now</Button>
+</Card>"
+"{""title"": ""Contact Support"", ""tooltip"": ""We usually respond within 24 hours."", ""textarea"": ""Your message"", ""button"": ""Send""}","<Card>
+  <Typography variant=""h2"">Contact Support</Typography>
+  <Tooltip content=""We usually respond within 24 hours."">
+    <TextArea placeholder=""Your message"" />
+  </Tooltip>
+  <Button>Send</Button>
+</Card>"
+"{""title"": ""Join Our Community"", ""subtitle"": ""Be a part of something big"", ""avatar"": ""https://example.com/avatar1.png"", ""badge"": ""New"", ""button"": ""Sign Up Now""}","<Card>
+  <Avatar src=""https://example.com/avatar1.png"" alt=""User"" />
+  <Typography variant=""h2"">Join Our Community</Typography>
+  <Typography>Be a part of something big</Typography>
+  <Badge>New</Badge>
+  <Button>Sign Up Now</Button>
+</Card>"
+"{""title"": ""Settings"", ""description"": ""Enable notifications and updates"", ""switch"": ""Notifications"", ""checkbox"": ""Receive updates"", ""button"": ""Save""}","<Card>
+  <Typography variant=""h2"">Settings</Typography>
+  <Typography>Enable notifications and updates</Typography>
+  <Switch label=""Notifications"" />
+  <Checkbox label=""Receive updates"" />
+  <Button>Save</Button>
+</Card>"
+"{""title"": ""FAQs"", ""accordion"": [""What is CampEd?"", ""How to enroll?"", ""Is it free?""], ""button"": ""Ask More""}","<Card>
+  <Typography variant=""h2"">FAQs</Typography>
+  <Accordion>
+    <AccordionItem title=""What is CampEd?"" />
+    <AccordionItem title=""How to enroll?"" />
+    <AccordionItem title=""Is it free?"" />
+  </Accordion>
+  <Button>Ask More</Button>
+</Card>"
+"{""title"": ""FAQs"", ""accordion"": [""What is CampEd?"", ""How to enroll?"", ""Is it free?""], ""button"": ""Ask More""}","<Card>
+  <Typography variant=""h2"">FAQs</Typography>
+  <Accordion>
+    <AccordionItem title=""What is CampEd?"" />
+    <AccordionItem title=""How to enroll?"" />
+    <AccordionItem title=""Is it free?"" />
+  </Accordion>
+  <Button>Ask More</Button>
+</Card>"
+"{""title"": ""FAQs"", ""accordion"": [""What is CampEd?"", ""How to enroll?"", ""Is it free?""], ""button"": ""Ask More""}","<Card>
+  <Typography variant=""h2"">FAQs</Typography>
+  <Accordion>
+    <AccordionItem title=""What is CampEd?"" />
+    <AccordionItem title=""How to enroll?"" />
+    <AccordionItem title=""Is it free?"" />
+  </Accordion>
+  <Button>Ask More</Button>
+</Card>"
+"{""title"": ""Join Our Community"", ""subtitle"": ""Be a part of something big"", ""avatar"": ""https://example.com/avatar1.png"", ""badge"": ""New"", ""button"": ""Sign Up Now""}","<Card>
+  <Avatar src=""https://example.com/avatar1.png"" alt=""User"" />
+  <Typography variant=""h2"">Join Our Community</Typography>
+  <Typography>Be a part of something big</Typography>
+  <Badge>New</Badge>
+  <Button>Sign Up Now</Button>
+</Card>"
+"{""title"": ""Contact Support"", ""tooltip"": ""We usually respond within 24 hours."", ""textarea"": ""Your message"", ""button"": ""Send""}","<Card>
+  <Typography variant=""h2"">Contact Support</Typography>
+  <Tooltip content=""We usually respond within 24 hours."">
+    <TextArea placeholder=""Your message"" />
+  </Tooltip>
+  <Button>Send</Button>
+</Card>"
+"{""title"": ""Course Progress"", ""progress"": ""70%"", ""button"": ""Continue Learning""}","<Card>
+  <Typography variant=""h2"">Course Progress</Typography>
+  <Progress value={70} />
+  <Button>Continue Learning</Button>
+</Card>"
+"{""title"": ""Settings"", ""description"": ""Enable notifications and updates"", ""switch"": ""Notifications"", ""checkbox"": ""Receive updates"", ""button"": ""Save""}","<Card>
+  <Typography variant=""h2"">Settings</Typography>
+  <Typography>Enable notifications and updates</Typography>
+  <Switch label=""Notifications"" />
+  <Checkbox label=""Receive updates"" />
+  <Button>Save</Button>
+</Card>"
+"{""title"": ""Contact Support"", ""tooltip"": ""We usually respond within 24 hours."", ""textarea"": ""Your message"", ""button"": ""Send""}","<Card>
+  <Typography variant=""h2"">Contact Support</Typography>
+  <Tooltip content=""We usually respond within 24 hours."">
+    <TextArea placeholder=""Your message"" />
+  </Tooltip>
+  <Button>Send</Button>
+</Card>"
+"{""title"": ""Course Progress"", ""progress"": ""70%"", ""button"": ""Continue Learning""}","<Card>
+  <Typography variant=""h2"">Course Progress</Typography>
+  <Progress value={70} />
+  <Button>Continue Learning</Button>
+</Card>"
+"{""title"": ""FAQs"", ""accordion"": [""What is CampEd?"", ""How to enroll?"", ""Is it free?""], ""button"": ""Ask More""}","<Card>
+  <Typography variant=""h2"">FAQs</Typography>
+  <Accordion>
+    <AccordionItem title=""What is CampEd?"" />
+    <AccordionItem title=""How to enroll?"" />
+    <AccordionItem title=""Is it free?"" />
+  </Accordion>
+  <Button>Ask More</Button>
+</Card>"
+"{""title"": ""Join Our Community"", ""subtitle"": ""Be a part of something big"", ""avatar"": ""https://example.com/avatar1.png"", ""badge"": ""New"", ""button"": ""Sign Up Now""}","<Card>
+  <Avatar src=""https://example.com/avatar1.png"" alt=""User"" />
+  <Typography variant=""h2"">Join Our Community</Typography>
+  <Typography>Be a part of something big</Typography>
+  <Badge>New</Badge>
+  <Button>Sign Up Now</Button>
+</Card>"
+"{""title"": ""Course Progress"", ""progress"": ""70%"", ""button"": ""Continue Learning""}","<Card>
+  <Typography variant=""h2"">Course Progress</Typography>
+  <Progress value={70} />
+  <Button>Continue Learning</Button>
+</Card>"
+"{""title"": ""Settings"", ""description"": ""Enable notifications and updates"", ""switch"": ""Notifications"", ""checkbox"": ""Receive updates"", ""button"": ""Save""}","<Card>
+  <Typography variant=""h2"">Settings</Typography>
+  <Typography>Enable notifications and updates</Typography>
+  <Switch label=""Notifications"" />
+  <Checkbox label=""Receive updates"" />
+  <Button>Save</Button>
+</Card>"
+"{""title"": ""Course Progress"", ""progress"": ""70%"", ""button"": ""Continue Learning""}","<Card>
+  <Typography variant=""h2"">Course Progress</Typography>
+  <Progress value={70} />
+  <Button>Continue Learning</Button>
+</Card>"
+"{""title"": ""Course Progress"", ""progress"": ""70%"", ""button"": ""Continue Learning""}","<Card>
+  <Typography variant=""h2"">Course Progress</Typography>
+  <Progress value={70} />
+  <Button>Continue Learning</Button>
+</Card>"
+"{""title"": ""FAQs"", ""accordion"": [""What is CampEd?"", ""How to enroll?"", ""Is it free?""], ""button"": ""Ask More""}","<Card>
+  <Typography variant=""h2"">FAQs</Typography>
+  <Accordion>
+    <AccordionItem title=""What is CampEd?"" />
+    <AccordionItem title=""How to enroll?"" />
+    <AccordionItem title=""Is it free?"" />
+  </Accordion>
+  <Button>Ask More</Button>
+</Card>"
+"{""title"": ""Course Progress"", ""progress"": ""70%"", ""button"": ""Continue Learning""}","<Card>
+  <Typography variant=""h2"">Course Progress</Typography>
+  <Progress value={70} />
+  <Button>Continue Learning</Button>
+</Card>"
+"{""title"": ""FAQs"", ""accordion"": [""What is CampEd?"", ""How to enroll?"", ""Is it free?""], ""button"": ""Ask More""}","<Card>
+  <Typography variant=""h2"">FAQs</Typography>
+  <Accordion>
+    <AccordionItem title=""What is CampEd?"" />
+    <AccordionItem title=""How to enroll?"" />
+    <AccordionItem title=""Is it free?"" />
+  </Accordion>
+  <Button>Ask More</Button>
+</Card>"
+"{""title"": ""Settings"", ""description"": ""Enable notifications and updates"", ""switch"": ""Notifications"", ""checkbox"": ""Receive updates"", ""button"": ""Save""}","<Card>
+  <Typography variant=""h2"">Settings</Typography>
+  <Typography>Enable notifications and updates</Typography>
+  <Switch label=""Notifications"" />
+  <Checkbox label=""Receive updates"" />
+  <Button>Save</Button>
+</Card>"
+"{""title"": ""Contact Support"", ""tooltip"": ""We usually respond within 24 hours."", ""textarea"": ""Your message"", ""button"": ""Send""}","<Card>
+  <Typography variant=""h2"">Contact Support</Typography>
+  <Tooltip content=""We usually respond within 24 hours."">
+    <TextArea placeholder=""Your message"" />
+  </Tooltip>
+  <Button>Send</Button>
+</Card>"
+"{""title"": ""Course Progress"", ""progress"": ""70%"", ""button"": ""Continue Learning""}","<Card>
+  <Typography variant=""h2"">Course Progress</Typography>
+  <Progress value={70} />
+  <Button>Continue Learning</Button>
+</Card>"
+"{""title"": ""Join Our Community"", ""subtitle"": ""Be a part of something big"", ""avatar"": ""https://example.com/avatar1.png"", ""badge"": ""New"", ""button"": ""Sign Up Now""}","<Card>
+  <Avatar src=""https://example.com/avatar1.png"" alt=""User"" />
+  <Typography variant=""h2"">Join Our Community</Typography>
+  <Typography>Be a part of something big</Typography>
+  <Badge>New</Badge>
+  <Button>Sign Up Now</Button>
+</Card>"
+"{""title"": ""Contact Support"", ""tooltip"": ""We usually respond within 24 hours."", ""textarea"": ""Your message"", ""button"": ""Send""}","<Card>
+  <Typography variant=""h2"">Contact Support</Typography>
+  <Tooltip content=""We usually respond within 24 hours."">
+    <TextArea placeholder=""Your message"" />
+  </Tooltip>
+  <Button>Send</Button>
+</Card>"
+"{""title"": ""Settings"", ""description"": ""Enable notifications and updates"", ""switch"": ""Notifications"", ""checkbox"": ""Receive updates"", ""button"": ""Save""}","<Card>
+  <Typography variant=""h2"">Settings</Typography>
+  <Typography>Enable notifications and updates</Typography>
+  <Switch label=""Notifications"" />
+  <Checkbox label=""Receive updates"" />
+  <Button>Save</Button>
+</Card>"
+"{""title"": ""Join Our Community"", ""subtitle"": ""Be a part of something big"", ""avatar"": ""https://example.com/avatar1.png"", ""badge"": ""New"", ""button"": ""Sign Up Now""}","<Card>
+  <Avatar src=""https://example.com/avatar1.png"" alt=""User"" />
+  <Typography variant=""h2"">Join Our Community</Typography>
+  <Typography>Be a part of something big</Typography>
+  <Badge>New</Badge>
+  <Button>Sign Up Now</Button>
+</Card>"
+"{""title"": ""Contact Support"", ""tooltip"": ""We usually respond within 24 hours."", ""textarea"": ""Your message"", ""button"": ""Send""}","<Card>
+  <Typography variant=""h2"">Contact Support</Typography>
+  <Tooltip content=""We usually respond within 24 hours."">
+    <TextArea placeholder=""Your message"" />
+  </Tooltip>
+  <Button>Send</Button>
+</Card>"
+"{""title"": ""Join Our Community"", ""subtitle"": ""Be a part of something big"", ""avatar"": ""https://example.com/avatar1.png"", ""badge"": ""New"", ""button"": ""Sign Up Now""}","<Card>
+  <Avatar src=""https://example.com/avatar1.png"" alt=""User"" />
+  <Typography variant=""h2"">Join Our Community</Typography>
+  <Typography>Be a part of something big</Typography>
+  <Badge>New</Badge>
+  <Button>Sign Up Now</Button>
+</Card>"
+"{""title"": ""Course Progress"", ""progress"": ""70%"", ""button"": ""Continue Learning""}","<Card>
+  <Typography variant=""h2"">Course Progress</Typography>
+  <Progress value={70} />
+  <Button>Continue Learning</Button>
+</Card>"
+"{""title"": ""Join Our Community"", ""subtitle"": ""Be a part of something big"", ""avatar"": ""https://example.com/avatar1.png"", ""badge"": ""New"", ""button"": ""Sign Up Now""}","<Card>
+  <Avatar src=""https://example.com/avatar1.png"" alt=""User"" />
+  <Typography variant=""h2"">Join Our Community</Typography>
+  <Typography>Be a part of something big</Typography>
+  <Badge>New</Badge>
+  <Button>Sign Up Now</Button>
+</Card>"
+"{""title"": ""Course Progress"", ""progress"": ""70%"", ""button"": ""Continue Learning""}","<Card>
+  <Typography variant=""h2"">Course Progress</Typography>
+  <Progress value={70} />
+  <Button>Continue Learning</Button>
+</Card>"
+"{""title"": ""Course Progress"", ""progress"": ""70%"", ""button"": ""Continue Learning""}","<Card>
+  <Typography variant=""h2"">Course Progress</Typography>
+  <Progress value={70} />
+  <Button>Continue Learning</Button>
+</Card>"
+"{""title"": ""Settings"", ""description"": ""Enable notifications and updates"", ""switch"": ""Notifications"", ""checkbox"": ""Receive updates"", ""button"": ""Save""}","<Card>
+  <Typography variant=""h2"">Settings</Typography>
+  <Typography>Enable notifications and updates</Typography>
+  <Switch label=""Notifications"" />
+  <Checkbox label=""Receive updates"" />
+  <Button>Save</Button>
+</Card>"
+"{""title"": ""Contact Support"", ""tooltip"": ""We usually respond within 24 hours."", ""textarea"": ""Your message"", ""button"": ""Send""}","<Card>
+  <Typography variant=""h2"">Contact Support</Typography>
+  <Tooltip content=""We usually respond within 24 hours."">
+    <TextArea placeholder=""Your message"" />
+  </Tooltip>
+  <Button>Send</Button>
+</Card>"
+"{""title"": ""Join Our Community"", ""subtitle"": ""Be a part of something big"", ""avatar"": ""https://example.com/avatar1.png"", ""badge"": ""New"", ""button"": ""Sign Up Now""}","<Card>
+  <Avatar src=""https://example.com/avatar1.png"" alt=""User"" />
+  <Typography variant=""h2"">Join Our Community</Typography>
+  <Typography>Be a part of something big</Typography>
+  <Badge>New</Badge>
+  <Button>Sign Up Now</Button>
+</Card>"
+"{""title"": ""Join Our Community"", ""subtitle"": ""Be a part of something big"", ""avatar"": ""https://example.com/avatar1.png"", ""badge"": ""New"", ""button"": ""Sign Up Now""}","<Card>
+  <Avatar src=""https://example.com/avatar1.png"" alt=""User"" />
+  <Typography variant=""h2"">Join Our Community</Typography>
+  <Typography>Be a part of something big</Typography>
+  <Badge>New</Badge>
+  <Button>Sign Up Now</Button>
+</Card>"
+"{""title"": ""Contact Support"", ""tooltip"": ""We usually respond within 24 hours."", ""textarea"": ""Your message"", ""button"": ""Send""}","<Card>
+  <Typography variant=""h2"">Contact Support</Typography>
+  <Tooltip content=""We usually respond within 24 hours."">
+    <TextArea placeholder=""Your message"" />
+  </Tooltip>
+  <Button>Send</Button>
+</Card>"
+"{""title"": ""Join Our Community"", ""subtitle"": ""Be a part of something big"", ""avatar"": ""https://example.com/avatar1.png"", ""badge"": ""New"", ""button"": ""Sign Up Now""}","<Card>
+  <Avatar src=""https://example.com/avatar1.png"" alt=""User"" />
+  <Typography variant=""h2"">Join Our Community</Typography>
+  <Typography>Be a part of something big</Typography>
+  <Badge>New</Badge>
+  <Button>Sign Up Now</Button>
+</Card>"
+"{""title"": ""Join Our Community"", ""subtitle"": ""Be a part of something big"", ""avatar"": ""https://example.com/avatar1.png"", ""badge"": ""New"", ""button"": ""Sign Up Now""}","<Card>
+  <Avatar src=""https://example.com/avatar1.png"" alt=""User"" />
+  <Typography variant=""h2"">Join Our Community</Typography>
+  <Typography>Be a part of something big</Typography>
+  <Badge>New</Badge>
+  <Button>Sign Up Now</Button>
+</Card>"
+"{""title"": ""Course Progress"", ""progress"": ""70%"", ""button"": ""Continue Learning""}","<Card>
+  <Typography variant=""h2"">Course Progress</Typography>
+  <Progress value={70} />
+  <Button>Continue Learning</Button>
+</Card>"
+"{""title"": ""Join Our Community"", ""subtitle"": ""Be a part of something big"", ""avatar"": ""https://example.com/avatar1.png"", ""badge"": ""New"", ""button"": ""Sign Up Now""}","<Card>
+  <Avatar src=""https://example.com/avatar1.png"" alt=""User"" />
+  <Typography variant=""h2"">Join Our Community</Typography>
+  <Typography>Be a part of something big</Typography>
+  <Badge>New</Badge>
+  <Button>Sign Up Now</Button>
+</Card>"
+"{""title"": ""Join Our Community"", ""subtitle"": ""Be a part of something big"", ""avatar"": ""https://example.com/avatar1.png"", ""badge"": ""New"", ""button"": ""Sign Up Now""}","<Card>
+  <Avatar src=""https://example.com/avatar1.png"" alt=""User"" />
+  <Typography variant=""h2"">Join Our Community</Typography>
+  <Typography>Be a part of something big</Typography>
+  <Badge>New</Badge>
+  <Button>Sign Up Now</Button>
+</Card>"
+"{""title"": ""Settings"", ""description"": ""Enable notifications and updates"", ""switch"": ""Notifications"", ""checkbox"": ""Receive updates"", ""button"": ""Save""}","<Card>
+  <Typography variant=""h2"">Settings</Typography>
+  <Typography>Enable notifications and updates</Typography>
+  <Switch label=""Notifications"" />
+  <Checkbox label=""Receive updates"" />
+  <Button>Save</Button>
+</Card>"
+"{""title"": ""Course Progress"", ""progress"": ""70%"", ""button"": ""Continue Learning""}","<Card>
+  <Typography variant=""h2"">Course Progress</Typography>
+  <Progress value={70} />
+  <Button>Continue Learning</Button>
+</Card>"
+"{""title"": ""Course Progress"", ""progress"": ""70%"", ""button"": ""Continue Learning""}","<Card>
+  <Typography variant=""h2"">Course Progress</Typography>
+  <Progress value={70} />
+  <Button>Continue Learning</Button>
+</Card>"
+"{""title"": ""Contact Support"", ""tooltip"": ""We usually respond within 24 hours."", ""textarea"": ""Your message"", ""button"": ""Send""}","<Card>
+  <Typography variant=""h2"">Contact Support</Typography>
+  <Tooltip content=""We usually respond within 24 hours."">
+    <TextArea placeholder=""Your message"" />
+  </Tooltip>
+  <Button>Send</Button>
+</Card>"
+"{""title"": ""Join Our Community"", ""subtitle"": ""Be a part of something big"", ""avatar"": ""https://example.com/avatar1.png"", ""badge"": ""New"", ""button"": ""Sign Up Now""}","<Card>
+  <Avatar src=""https://example.com/avatar1.png"" alt=""User"" />
+  <Typography variant=""h2"">Join Our Community</Typography>
+  <Typography>Be a part of something big</Typography>
+  <Badge>New</Badge>
+  <Button>Sign Up Now</Button>
+</Card>"
+"{""title"": ""Course Progress"", ""progress"": ""70%"", ""button"": ""Continue Learning""}","<Card>
+  <Typography variant=""h2"">Course Progress</Typography>
+  <Progress value={70} />
+  <Button>Continue Learning</Button>
+</Card>"
+"{""title"": ""Settings"", ""description"": ""Enable notifications and updates"", ""switch"": ""Notifications"", ""checkbox"": ""Receive updates"", ""button"": ""Save""}","<Card>
+  <Typography variant=""h2"">Settings</Typography>
+  <Typography>Enable notifications and updates</Typography>
+  <Switch label=""Notifications"" />
+  <Checkbox label=""Receive updates"" />
+  <Button>Save</Button>
+</Card>"
+"{""title"": ""Contact Support"", ""tooltip"": ""We usually respond within 24 hours."", ""textarea"": ""Your message"", ""button"": ""Send""}","<Card>
+  <Typography variant=""h2"">Contact Support</Typography>
+  <Tooltip content=""We usually respond within 24 hours."">
+    <TextArea placeholder=""Your message"" />
+  </Tooltip>
+  <Button>Send</Button>
+</Card>"
+"{""title"": ""Join Our Community"", ""subtitle"": ""Be a part of something big"", ""avatar"": ""https://example.com/avatar1.png"", ""badge"": ""New"", ""button"": ""Sign Up Now""}","<Card>
+  <Avatar src=""https://example.com/avatar1.png"" alt=""User"" />
+  <Typography variant=""h2"">Join Our Community</Typography>
+  <Typography>Be a part of something big</Typography>
+  <Badge>New</Badge>
+  <Button>Sign Up Now</Button>
+</Card>"
+"{""title"": ""FAQs"", ""accordion"": [""What is CampEd?"", ""How to enroll?"", ""Is it free?""], ""button"": ""Ask More""}","<Card>
+  <Typography variant=""h2"">FAQs</Typography>
+  <Accordion>
+    <AccordionItem title=""What is CampEd?"" />
+    <AccordionItem title=""How to enroll?"" />
+    <AccordionItem title=""Is it free?"" />
+  </Accordion>
+  <Button>Ask More</Button>
+</Card>"
+"{""title"": ""Contact Support"", ""tooltip"": ""We usually respond within 24 hours."", ""textarea"": ""Your message"", ""button"": ""Send""}","<Card>
+  <Typography variant=""h2"">Contact Support</Typography>
+  <Tooltip content=""We usually respond within 24 hours."">
+    <TextArea placeholder=""Your message"" />
+  </Tooltip>
+  <Button>Send</Button>
+</Card>"
+"{""title"": ""Contact Support"", ""tooltip"": ""We usually respond within 24 hours."", ""textarea"": ""Your message"", ""button"": ""Send""}","<Card>
+  <Typography variant=""h2"">Contact Support</Typography>
+  <Tooltip content=""We usually respond within 24 hours."">
+    <TextArea placeholder=""Your message"" />
+  </Tooltip>
+  <Button>Send</Button>
+</Card>"
+"{""title"": ""Settings"", ""description"": ""Enable notifications and updates"", ""switch"": ""Notifications"", ""checkbox"": ""Receive updates"", ""button"": ""Save""}","<Card>
+  <Typography variant=""h2"">Settings</Typography>
+  <Typography>Enable notifications and updates</Typography>
+  <Switch label=""Notifications"" />
+  <Checkbox label=""Receive updates"" />
+  <Button>Save</Button>
+</Card>"
+"{""title"": ""Settings"", ""description"": ""Enable notifications and updates"", ""switch"": ""Notifications"", ""checkbox"": ""Receive updates"", ""button"": ""Save""}","<Card>
+  <Typography variant=""h2"">Settings</Typography>
+  <Typography>Enable notifications and updates</Typography>
+  <Switch label=""Notifications"" />
+  <Checkbox label=""Receive updates"" />
+  <Button>Save</Button>
+</Card>"
+"{""title"": ""Contact Support"", ""tooltip"": ""We usually respond within 24 hours."", ""textarea"": ""Your message"", ""button"": ""Send""}","<Card>
+  <Typography variant=""h2"">Contact Support</Typography>
+  <Tooltip content=""We usually respond within 24 hours."">
+    <TextArea placeholder=""Your message"" />
+  </Tooltip>
+  <Button>Send</Button>
+</Card>"
+"{""title"": ""FAQs"", ""accordion"": [""What is CampEd?"", ""How to enroll?"", ""Is it free?""], ""button"": ""Ask More""}","<Card>
+  <Typography variant=""h2"">FAQs</Typography>
+  <Accordion>
+    <AccordionItem title=""What is CampEd?"" />
+    <AccordionItem title=""How to enroll?"" />
+    <AccordionItem title=""Is it free?"" />
+  </Accordion>
+  <Button>Ask More</Button>
+</Card>"
+"{""title"": ""Contact Support"", ""tooltip"": ""We usually respond within 24 hours."", ""textarea"": ""Your message"", ""button"": ""Send""}","<Card>
+  <Typography variant=""h2"">Contact Support</Typography>
+  <Tooltip content=""We usually respond within 24 hours."">
+    <TextArea placeholder=""Your message"" />
+  </Tooltip>
+  <Button>Send</Button>
+</Card>"
+"{""title"": ""FAQs"", ""accordion"": [""What is CampEd?"", ""How to enroll?"", ""Is it free?""], ""button"": ""Ask More""}","<Card>
+  <Typography variant=""h2"">FAQs</Typography>
+  <Accordion>
+    <AccordionItem title=""What is CampEd?"" />
+    <AccordionItem title=""How to enroll?"" />
+    <AccordionItem title=""Is it free?"" />
+  </Accordion>
+  <Button>Ask More</Button>
+</Card>"
+"{""title"": ""Contact Support"", ""tooltip"": ""We usually respond within 24 hours."", ""textarea"": ""Your message"", ""button"": ""Send""}","<Card>
+  <Typography variant=""h2"">Contact Support</Typography>
+  <Tooltip content=""We usually respond within 24 hours."">
+    <TextArea placeholder=""Your message"" />
+  </Tooltip>
+  <Button>Send</Button>
+</Card>"
+"{""title"": ""Settings"", ""description"": ""Enable notifications and updates"", ""switch"": ""Notifications"", ""checkbox"": ""Receive updates"", ""button"": ""Save""}","<Card>
+  <Typography variant=""h2"">Settings</Typography>
+  <Typography>Enable notifications and updates</Typography>
+  <Switch label=""Notifications"" />
+  <Checkbox label=""Receive updates"" />
+  <Button>Save</Button>
+</Card>"
+"{""title"": ""Course Progress"", ""progress"": ""70%"", ""button"": ""Continue Learning""}","<Card>
+  <Typography variant=""h2"">Course Progress</Typography>
+  <Progress value={70} />
+  <Button>Continue Learning</Button>
+</Card>"
+"{""title"": ""Course Progress"", ""progress"": ""70%"", ""button"": ""Continue Learning""}","<Card>
+  <Typography variant=""h2"">Course Progress</Typography>
+  <Progress value={70} />
+  <Button>Continue Learning</Button>
+</Card>"
+"{""title"": ""Contact Support"", ""tooltip"": ""We usually respond within 24 hours."", ""textarea"": ""Your message"", ""button"": ""Send""}","<Card>
+  <Typography variant=""h2"">Contact Support</Typography>
+  <Tooltip content=""We usually respond within 24 hours."">
+    <TextArea placeholder=""Your message"" />
+  </Tooltip>
+  <Button>Send</Button>
+</Card>"
+"{""title"": ""Settings"", ""description"": ""Enable notifications and updates"", ""switch"": ""Notifications"", ""checkbox"": ""Receive updates"", ""button"": ""Save""}","<Card>
+  <Typography variant=""h2"">Settings</Typography>
+  <Typography>Enable notifications and updates</Typography>
+  <Switch label=""Notifications"" />
+  <Checkbox label=""Receive updates"" />
+  <Button>Save</Button>
+</Card>"
+"{""title"": ""Course Progress"", ""progress"": ""70%"", ""button"": ""Continue Learning""}","<Card>
+  <Typography variant=""h2"">Course Progress</Typography>
+  <Progress value={70} />
+  <Button>Continue Learning</Button>
+</Card>"
+"{""title"": ""Settings"", ""description"": ""Enable notifications and updates"", ""switch"": ""Notifications"", ""checkbox"": ""Receive updates"", ""button"": ""Save""}","<Card>
+  <Typography variant=""h2"">Settings</Typography>
+  <Typography>Enable notifications and updates</Typography>
+  <Switch label=""Notifications"" />
+  <Checkbox label=""Receive updates"" />
+  <Button>Save</Button>
+</Card>"
+"{""title"": ""Course Progress"", ""progress"": ""70%"", ""button"": ""Continue Learning""}","<Card>
+  <Typography variant=""h2"">Course Progress</Typography>
+  <Progress value={70} />
+  <Button>Continue Learning</Button>
+</Card>"
+"{""title"": ""FAQs"", ""accordion"": [""What is CampEd?"", ""How to enroll?"", ""Is it free?""], ""button"": ""Ask More""}","<Card>
+  <Typography variant=""h2"">FAQs</Typography>
+  <Accordion>
+    <AccordionItem title=""What is CampEd?"" />
+    <AccordionItem title=""How to enroll?"" />
+    <AccordionItem title=""Is it free?"" />
+  </Accordion>
+  <Button>Ask More</Button>
+</Card>"
+"{""title"": ""Join Our Community"", ""subtitle"": ""Be a part of something big"", ""avatar"": ""https://example.com/avatar1.png"", ""badge"": ""New"", ""button"": ""Sign Up Now""}","<Card>
+  <Avatar src=""https://example.com/avatar1.png"" alt=""User"" />
+  <Typography variant=""h2"">Join Our Community</Typography>
+  <Typography>Be a part of something big</Typography>
+  <Badge>New</Badge>
+  <Button>Sign Up Now</Button>
+</Card>"
+"{""title"": ""Join Our Community"", ""subtitle"": ""Be a part of something big"", ""avatar"": ""https://example.com/avatar1.png"", ""badge"": ""New"", ""button"": ""Sign Up Now""}","<Card>
+  <Avatar src=""https://example.com/avatar1.png"" alt=""User"" />
+  <Typography variant=""h2"">Join Our Community</Typography>
+  <Typography>Be a part of something big</Typography>
+  <Badge>New</Badge>
+  <Button>Sign Up Now</Button>
+</Card>"
+"{""title"": ""Contact Support"", ""tooltip"": ""We usually respond within 24 hours."", ""textarea"": ""Your message"", ""button"": ""Send""}","<Card>
+  <Typography variant=""h2"">Contact Support</Typography>
+  <Tooltip content=""We usually respond within 24 hours."">
+    <TextArea placeholder=""Your message"" />
+  </Tooltip>
+  <Button>Send</Button>
+</Card>"
+"{""title"": ""Contact Support"", ""tooltip"": ""We usually respond within 24 hours."", ""textarea"": ""Your message"", ""button"": ""Send""}","<Card>
+  <Typography variant=""h2"">Contact Support</Typography>
+  <Tooltip content=""We usually respond within 24 hours."">
+    <TextArea placeholder=""Your message"" />
+  </Tooltip>
+  <Button>Send</Button>
+</Card>"
+"{""title"": ""Course Progress"", ""progress"": ""70%"", ""button"": ""Continue Learning""}","<Card>
+  <Typography variant=""h2"">Course Progress</Typography>
+  <Progress value={70} />
+  <Button>Continue Learning</Button>
+</Card>"
+"{""title"": ""Contact Support"", ""tooltip"": ""We usually respond within 24 hours."", ""textarea"": ""Your message"", ""button"": ""Send""}","<Card>
+  <Typography variant=""h2"">Contact Support</Typography>
+  <Tooltip content=""We usually respond within 24 hours."">
+    <TextArea placeholder=""Your message"" />
+  </Tooltip>
+  <Button>Send</Button>
+</Card>"
+"{""title"": ""Settings"", ""description"": ""Enable notifications and updates"", ""switch"": ""Notifications"", ""checkbox"": ""Receive updates"", ""button"": ""Save""}","<Card>
+  <Typography variant=""h2"">Settings</Typography>
+  <Typography>Enable notifications and updates</Typography>
+  <Switch label=""Notifications"" />
+  <Checkbox label=""Receive updates"" />
+  <Button>Save</Button>
+</Card>"
+"{""title"": ""Contact Support"", ""tooltip"": ""We usually respond within 24 hours."", ""textarea"": ""Your message"", ""button"": ""Send""}","<Card>
+  <Typography variant=""h2"">Contact Support</Typography>
+  <Tooltip content=""We usually respond within 24 hours."">
+    <TextArea placeholder=""Your message"" />
+  </Tooltip>
+  <Button>Send</Button>
+</Card>"
+"{""title"": ""Join Our Community"", ""subtitle"": ""Be a part of something big"", ""avatar"": ""https://example.com/avatar1.png"", ""badge"": ""New"", ""button"": ""Sign Up Now""}","<Card>
+  <Avatar src=""https://example.com/avatar1.png"" alt=""User"" />
+  <Typography variant=""h2"">Join Our Community</Typography>
+  <Typography>Be a part of something big</Typography>
+  <Badge>New</Badge>
+  <Button>Sign Up Now</Button>
+</Card>"
+"{""title"": ""Join Our Community"", ""subtitle"": ""Be a part of something big"", ""avatar"": ""https://example.com/avatar1.png"", ""badge"": ""New"", ""button"": ""Sign Up Now""}","<Card>
+  <Avatar src=""https://example.com/avatar1.png"" alt=""User"" />
+  <Typography variant=""h2"">Join Our Community</Typography>
+  <Typography>Be a part of something big</Typography>
+  <Badge>New</Badge>
+  <Button>Sign Up Now</Button>
+</Card>"
+"{""title"": ""Contact Support"", ""tooltip"": ""We usually respond within 24 hours."", ""textarea"": ""Your message"", ""button"": ""Send""}","<Card>
+  <Typography variant=""h2"">Contact Support</Typography>
+  <Tooltip content=""We usually respond within 24 hours."">
+    <TextArea placeholder=""Your message"" />
+  </Tooltip>
+  <Button>Send</Button>
+</Card>"
+"{""title"": ""Join Our Community"", ""subtitle"": ""Be a part of something big"", ""avatar"": ""https://example.com/avatar1.png"", ""badge"": ""New"", ""button"": ""Sign Up Now""}","<Card>
+  <Avatar src=""https://example.com/avatar1.png"" alt=""User"" />
+  <Typography variant=""h2"">Join Our Community</Typography>
+  <Typography>Be a part of something big</Typography>
+  <Badge>New</Badge>
+  <Button>Sign Up Now</Button>
+</Card>"
+"{""title"": ""Contact Support"", ""tooltip"": ""We usually respond within 24 hours."", ""textarea"": ""Your message"", ""button"": ""Send""}","<Card>
+  <Typography variant=""h2"">Contact Support</Typography>
+  <Tooltip content=""We usually respond within 24 hours."">
+    <TextArea placeholder=""Your message"" />
+  </Tooltip>
+  <Button>Send</Button>
+</Card>"
+"{""title"": ""Contact Support"", ""tooltip"": ""We usually respond within 24 hours."", ""textarea"": ""Your message"", ""button"": ""Send""}","<Card>
+  <Typography variant=""h2"">Contact Support</Typography>
+  <Tooltip content=""We usually respond within 24 hours."">
+    <TextArea placeholder=""Your message"" />
+  </Tooltip>
+  <Button>Send</Button>
+</Card>"
+"{""title"": ""Course Progress"", ""progress"": ""70%"", ""button"": ""Continue Learning""}","<Card>
+  <Typography variant=""h2"">Course Progress</Typography>
+  <Progress value={70} />
+  <Button>Continue Learning</Button>
+</Card>"
+"title: Boost Your Skills
+description: Build skills that matter.
+tools: Markdown Editor, Slide Generator, Progress Tracker
+button: Start Learning","<Card>
+  <Typography variant=""h2"">Boost Your Skills</Typography>
+  <Typography>Build skills that matter.</Typography>
+  <List>
+    <ListItem>Markdown Editor</ListItem>
+    <ListItem>Slide Generator</ListItem>
+    <ListItem>Progress Tracker</ListItem>
+  </List>
+  <Button>Start Learning</Button>
+</Card>"
+"title: Boost Your Skills
+description: Your personalized learning hub.
+tools: Quiz Builder, Flashcard Generator, Live Code Runner
+button: Try It Today","<Card>
+  <Typography variant=""h2"">Boost Your Skills</Typography>
+  <Typography>Your personalized learning hub.</Typography>
+  <List>
+    <ListItem>Quiz Builder</ListItem>
+    <ListItem>Flashcard Generator</ListItem>
+    <ListItem>Live Code Runner</ListItem>
+  </List>
+  <Button>Try It Today</Button>
+</Card>"
+"title: Boost Your Skills
+description: Learn with interactive tools.
+tools: Markdown Editor, Slide Generator, Progress Tracker
+button: Start Learning","<Card>
+  <Typography variant=""h2"">Boost Your Skills</Typography>
+  <Typography>Learn with interactive tools.</Typography>
+  <List>
+    <ListItem>Markdown Editor</ListItem>
+    <ListItem>Slide Generator</ListItem>
+    <ListItem>Progress Tracker</ListItem>
+  </List>
+  <Button>Start Learning</Button>
+</Card>"
+"title: Welcome to CampEd
+description: Your personalized learning hub.
+tools: ChatBot Designer, Voice Notes, Learning Journal
+button: Get Started","<Card>
+  <Typography variant=""h2"">Welcome to CampEd</Typography>
+  <Typography>Your personalized learning hub.</Typography>
+  <List>
+    <ListItem>ChatBot Designer</ListItem>
+    <ListItem>Voice Notes</ListItem>
+    <ListItem>Learning Journal</ListItem>
+  </List>
+  <Button>Get Started</Button>
+</Card>"
+"title: Start Your Journey
+description: Empower your education.
+tools: ChatBot Designer, Voice Notes, Learning Journal
+button: Explore Now","<Card>
+  <Typography variant=""h2"">Start Your Journey</Typography>
+  <Typography>Empower your education.</Typography>
+  <List>
+    <ListItem>ChatBot Designer</ListItem>
+    <ListItem>Voice Notes</ListItem>
+    <ListItem>Learning Journal</ListItem>
+  </List>
+  <Button>Explore Now</Button>
+</Card>"
+"title: Boost Your Skills
+description: Interactive content at your fingertips.
+tools: Mind Map Creator, PDF Annotator, Video Explainer
+button: Explore Now","<Card>
+  <Typography variant=""h2"">Boost Your Skills</Typography>
+  <Typography>Interactive content at your fingertips.</Typography>
+  <List>
+    <ListItem>Mind Map Creator</ListItem>
+    <ListItem>PDF Annotator</ListItem>
+    <ListItem>Video Explainer</ListItem>
+  </List>
+  <Button>Explore Now</Button>
+</Card>"
+"title: Start Your Journey
+description: Learn with interactive tools.
+tools: Quiz Builder, Flashcard Generator, Live Code Runner
+button: Join Free","<Card>
+  <Typography variant=""h2"">Start Your Journey</Typography>
+  <Typography>Learn with interactive tools.</Typography>
+  <List>
+    <ListItem>Quiz Builder</ListItem>
+    <ListItem>Flashcard Generator</ListItem>
+    <ListItem>Live Code Runner</ListItem>
+  </List>
+  <Button>Join Free</Button>
+</Card>"
+"title: Explore New Tools
+description: Learn with interactive tools.
+tools: ChatBot Designer, Voice Notes, Learning Journal
+button: Join Free","<Card>
+  <Typography variant=""h2"">Explore New Tools</Typography>
+  <Typography>Learn with interactive tools.</Typography>
+  <List>
+    <ListItem>ChatBot Designer</ListItem>
+    <ListItem>Voice Notes</ListItem>
+    <ListItem>Learning Journal</ListItem>
+  </List>
+  <Button>Join Free</Button>
+</Card>"
+"title: Explore New Tools
+description: Build skills that matter.
+tools: Mind Map Creator, PDF Annotator, Video Explainer
+button: Explore Now","<Card>
+  <Typography variant=""h2"">Explore New Tools</Typography>
+  <Typography>Build skills that matter.</Typography>
+  <List>
+    <ListItem>Mind Map Creator</ListItem>
+    <ListItem>PDF Annotator</ListItem>
+    <ListItem>Video Explainer</ListItem>
+  </List>
+  <Button>Explore Now</Button>
+</Card>"
+"title: Welcome to CampEd
+description: Your personalized learning hub.
+tools: AI Assistant, Notebook Viewer, Content Summarizer
+button: Explore Now","<Card>
+  <Typography variant=""h2"">Welcome to CampEd</Typography>
+  <Typography>Your personalized learning hub.</Typography>
+  <List>
+    <ListItem>AI Assistant</ListItem>
+    <ListItem>Notebook Viewer</ListItem>
+    <ListItem>Content Summarizer</ListItem>
+  </List>
+  <Button>Explore Now</Button>
+</Card>"
+"title: Join the Learning Revolution
+description: Your personalized learning hub.
+tools: Mind Map Creator, PDF Annotator, Video Explainer
+button: Explore Now","<Card>
+  <Typography variant=""h2"">Join the Learning Revolution</Typography>
+  <Typography>Your personalized learning hub.</Typography>
+  <List>
+    <ListItem>Mind Map Creator</ListItem>
+    <ListItem>PDF Annotator</ListItem>
+    <ListItem>Video Explainer</ListItem>
+  </List>
+  <Button>Explore Now</Button>
+</Card>"
+"title: Explore New Tools
+description: Learn with interactive tools.
+tools: AI Assistant, Notebook Viewer, Content Summarizer
+button: Get Started","<Card>
+  <Typography variant=""h2"">Explore New Tools</Typography>
+  <Typography>Learn with interactive tools.</Typography>
+  <List>
+    <ListItem>AI Assistant</ListItem>
+    <ListItem>Notebook Viewer</ListItem>
+    <ListItem>Content Summarizer</ListItem>
+  </List>
+  <Button>Get Started</Button>
+</Card>"
+"title: Explore New Tools
+description: Learn with interactive tools.
+tools: Quiz Builder, Flashcard Generator, Live Code Runner
+button: Join Free","<Card>
+  <Typography variant=""h2"">Explore New Tools</Typography>
+  <Typography>Learn with interactive tools.</Typography>
+  <List>
+    <ListItem>Quiz Builder</ListItem>
+    <ListItem>Flashcard Generator</ListItem>
+    <ListItem>Live Code Runner</ListItem>
+  </List>
+  <Button>Join Free</Button>
+</Card>"
+"title: Welcome to CampEd
+description: Learn with interactive tools.
+tools: Quiz Builder, Flashcard Generator, Live Code Runner
+button: Get Started","<Card>
+  <Typography variant=""h2"">Welcome to CampEd</Typography>
+  <Typography>Learn with interactive tools.</Typography>
+  <List>
+    <ListItem>Quiz Builder</ListItem>
+    <ListItem>Flashcard Generator</ListItem>
+    <ListItem>Live Code Runner</ListItem>
+  </List>
+  <Button>Get Started</Button>
+</Card>"
+"title: Join the Learning Revolution
+description: Build skills that matter.
+tools: AI Assistant, Notebook Viewer, Content Summarizer
+button: Join Free","<Card>
+  <Typography variant=""h2"">Join the Learning Revolution</Typography>
+  <Typography>Build skills that matter.</Typography>
+  <List>
+    <ListItem>AI Assistant</ListItem>
+    <ListItem>Notebook Viewer</ListItem>
+    <ListItem>Content Summarizer</ListItem>
+  </List>
+  <Button>Join Free</Button>
+</Card>"
+"title: Join the Learning Revolution
+description: Learn with interactive tools.
+tools: Quiz Builder, Flashcard Generator, Live Code Runner
+button: Get Started","<Card>
+  <Typography variant=""h2"">Join the Learning Revolution</Typography>
+  <Typography>Learn with interactive tools.</Typography>
+  <List>
+    <ListItem>Quiz Builder</ListItem>
+    <ListItem>Flashcard Generator</ListItem>
+    <ListItem>Live Code Runner</ListItem>
+  </List>
+  <Button>Get Started</Button>
+</Card>"
+"title: Boost Your Skills
+description: Your personalized learning hub.
+tools: Mind Map Creator, PDF Annotator, Video Explainer
+button: Get Started","<Card>
+  <Typography variant=""h2"">Boost Your Skills</Typography>
+  <Typography>Your personalized learning hub.</Typography>
+  <List>
+    <ListItem>Mind Map Creator</ListItem>
+    <ListItem>PDF Annotator</ListItem>
+    <ListItem>Video Explainer</ListItem>
+  </List>
+  <Button>Get Started</Button>
+</Card>"
+"title: Boost Your Skills
+description: Learn with interactive tools.
+tools: Quiz Builder, Flashcard Generator, Live Code Runner
+button: Try It Today","<Card>
+  <Typography variant=""h2"">Boost Your Skills</Typography>
+  <Typography>Learn with interactive tools.</Typography>
+  <List>
+    <ListItem>Quiz Builder</ListItem>
+    <ListItem>Flashcard Generator</ListItem>
+    <ListItem>Live Code Runner</ListItem>
+  </List>
+  <Button>Try It Today</Button>
+</Card>"
+"title: Start Your Journey
+description: Empower your education.
+tools: Quiz Builder, Flashcard Generator, Live Code Runner
+button: Get Started","<Card>
+  <Typography variant=""h2"">Start Your Journey</Typography>
+  <Typography>Empower your education.</Typography>
+  <List>
+    <ListItem>Quiz Builder</ListItem>
+    <ListItem>Flashcard Generator</ListItem>
+    <ListItem>Live Code Runner</ListItem>
+  </List>
+  <Button>Get Started</Button>
+</Card>"
+"title: Boost Your Skills
+description: Build skills that matter.
+tools: Markdown Editor, Slide Generator, Progress Tracker
+button: Join Free","<Card>
+  <Typography variant=""h2"">Boost Your Skills</Typography>
+  <Typography>Build skills that matter.</Typography>
+  <List>
+    <ListItem>Markdown Editor</ListItem>
+    <ListItem>Slide Generator</ListItem>
+    <ListItem>Progress Tracker</ListItem>
+  </List>
+  <Button>Join Free</Button>
+</Card>"
+"title: Welcome to CampEd
+description: Empower your education.
+tools: Quiz Builder, Flashcard Generator, Live Code Runner
+button: Join Free","<Card>
+  <Typography variant=""h2"">Welcome to CampEd</Typography>
+  <Typography>Empower your education.</Typography>
+  <List>
+    <ListItem>Quiz Builder</ListItem>
+    <ListItem>Flashcard Generator</ListItem>
+    <ListItem>Live Code Runner</ListItem>
+  </List>
+  <Button>Join Free</Button>
+</Card>"
+"title: Explore New Tools
+description: Your personalized learning hub.
+tools: AI Assistant, Notebook Viewer, Content Summarizer
+button: Start Learning","<Card>
+  <Typography variant=""h2"">Explore New Tools</Typography>
+  <Typography>Your personalized learning hub.</Typography>
+  <List>
+    <ListItem>AI Assistant</ListItem>
+    <ListItem>Notebook Viewer</ListItem>
+    <ListItem>Content Summarizer</ListItem>
+  </List>
+  <Button>Start Learning</Button>
+</Card>"
+"title: Join the Learning Revolution
+description: Your personalized learning hub.
+tools: Mind Map Creator, PDF Annotator, Video Explainer
+button: Explore Now","<Card>
+  <Typography variant=""h2"">Join the Learning Revolution</Typography>
+  <Typography>Your personalized learning hub.</Typography>
+  <List>
+    <ListItem>Mind Map Creator</ListItem>
+    <ListItem>PDF Annotator</ListItem>
+    <ListItem>Video Explainer</ListItem>
+  </List>
+  <Button>Explore Now</Button>
+</Card>"
+"title: Join the Learning Revolution
+description: Empower your education.
+tools: Mind Map Creator, PDF Annotator, Video Explainer
+button: Try It Today","<Card>
+  <Typography variant=""h2"">Join the Learning Revolution</Typography>
+  <Typography>Empower your education.</Typography>
+  <List>
+    <ListItem>Mind Map Creator</ListItem>
+    <ListItem>PDF Annotator</ListItem>
+    <ListItem>Video Explainer</ListItem>
+  </List>
+  <Button>Try It Today</Button>
+</Card>"
+"title: Welcome to CampEd
+description: Learn with interactive tools.
+tools: Markdown Editor, Slide Generator, Progress Tracker
+button: Explore Now","<Card>
+  <Typography variant=""h2"">Welcome to CampEd</Typography>
+  <Typography>Learn with interactive tools.</Typography>
+  <List>
+    <ListItem>Markdown Editor</ListItem>
+    <ListItem>Slide Generator</ListItem>
+    <ListItem>Progress Tracker</ListItem>
+  </List>
+  <Button>Explore Now</Button>
+</Card>"
+"title: Welcome to CampEd
+description: Build skills that matter.
+tools: Quiz Builder, Flashcard Generator, Live Code Runner
+button: Join Free","<Card>
+  <Typography variant=""h2"">Welcome to CampEd</Typography>
+  <Typography>Build skills that matter.</Typography>
+  <List>
+    <ListItem>Quiz Builder</ListItem>
+    <ListItem>Flashcard Generator</ListItem>
+    <ListItem>Live Code Runner</ListItem>
+  </List>
+  <Button>Join Free</Button>
+</Card>"
+"title: Join the Learning Revolution
+description: Interactive content at your fingertips.
+tools: AI Assistant, Notebook Viewer, Content Summarizer
+button: Start Learning","<Card>
+  <Typography variant=""h2"">Join the Learning Revolution</Typography>
+  <Typography>Interactive content at your fingertips.</Typography>
+  <List>
+    <ListItem>AI Assistant</ListItem>
+    <ListItem>Notebook Viewer</ListItem>
+    <ListItem>Content Summarizer</ListItem>
+  </List>
+  <Button>Start Learning</Button>
+</Card>"
+"title: Join the Learning Revolution
+description: Your personalized learning hub.
+tools: Quiz Builder, Flashcard Generator, Live Code Runner
+button: Try It Today","<Card>
+  <Typography variant=""h2"">Join the Learning Revolution</Typography>
+  <Typography>Your personalized learning hub.</Typography>
+  <List>
+    <ListItem>Quiz Builder</ListItem>
+    <ListItem>Flashcard Generator</ListItem>
+    <ListItem>Live Code Runner</ListItem>
+  </List>
+  <Button>Try It Today</Button>
+</Card>"
+"title: Boost Your Skills
+description: Learn with interactive tools.
+tools: Mind Map Creator, PDF Annotator, Video Explainer
+button: Start Learning","<Card>
+  <Typography variant=""h2"">Boost Your Skills</Typography>
+  <Typography>Learn with interactive tools.</Typography>
+  <List>
+    <ListItem>Mind Map Creator</ListItem>
+    <ListItem>PDF Annotator</ListItem>
+    <ListItem>Video Explainer</ListItem>
+  </List>
+  <Button>Start Learning</Button>
+</Card>"
+"title: Explore New Tools
+description: Empower your education.
+tools: AI Assistant, Notebook Viewer, Content Summarizer
+button: Start Learning","<Card>
+  <Typography variant=""h2"">Explore New Tools</Typography>
+  <Typography>Empower your education.</Typography>
+  <List>
+    <ListItem>AI Assistant</ListItem>
+    <ListItem>Notebook Viewer</ListItem>
+    <ListItem>Content Summarizer</ListItem>
+  </List>
+  <Button>Start Learning</Button>
+</Card>"
+"title: Explore New Tools
+description: Empower your education.
+tools: Quiz Builder, Flashcard Generator, Live Code Runner
+button: Try It Today","<Card>
+  <Typography variant=""h2"">Explore New Tools</Typography>
+  <Typography>Empower your education.</Typography>
+  <List>
+    <ListItem>Quiz Builder</ListItem>
+    <ListItem>Flashcard Generator</ListItem>
+    <ListItem>Live Code Runner</ListItem>
+  </List>
+  <Button>Try It Today</Button>
+</Card>"
+"title: Join the Learning Revolution
+description: Build skills that matter.
+tools: Markdown Editor, Slide Generator, Progress Tracker
+button: Join Free","<Card>
+  <Typography variant=""h2"">Join the Learning Revolution</Typography>
+  <Typography>Build skills that matter.</Typography>
+  <List>
+    <ListItem>Markdown Editor</ListItem>
+    <ListItem>Slide Generator</ListItem>
+    <ListItem>Progress Tracker</ListItem>
+  </List>
+  <Button>Join Free</Button>
+</Card>"
+"title: Boost Your Skills
+description: Build skills that matter.
+tools: AI Assistant, Notebook Viewer, Content Summarizer
+button: Explore Now","<Card>
+  <Typography variant=""h2"">Boost Your Skills</Typography>
+  <Typography>Build skills that matter.</Typography>
+  <List>
+    <ListItem>AI Assistant</ListItem>
+    <ListItem>Notebook Viewer</ListItem>
+    <ListItem>Content Summarizer</ListItem>
+  </List>
+  <Button>Explore Now</Button>
+</Card>"
+"title: Join the Learning Revolution
+description: Build skills that matter.
+tools: Markdown Editor, Slide Generator, Progress Tracker
+button: Join Free","<Card>
+  <Typography variant=""h2"">Join the Learning Revolution</Typography>
+  <Typography>Build skills that matter.</Typography>
+  <List>
+    <ListItem>Markdown Editor</ListItem>
+    <ListItem>Slide Generator</ListItem>
+    <ListItem>Progress Tracker</ListItem>
+  </List>
+  <Button>Join Free</Button>
+</Card>"
+"title: Start Your Journey
+description: Your personalized learning hub.
+tools: Quiz Builder, Flashcard Generator, Live Code Runner
+button: Get Started","<Card>
+  <Typography variant=""h2"">Start Your Journey</Typography>
+  <Typography>Your personalized learning hub.</Typography>
+  <List>
+    <ListItem>Quiz Builder</ListItem>
+    <ListItem>Flashcard Generator</ListItem>
+    <ListItem>Live Code Runner</ListItem>
+  </List>
+  <Button>Get Started</Button>
+</Card>"
+"title: Join the Learning Revolution
+description: Build skills that matter.
+tools: Markdown Editor, Slide Generator, Progress Tracker
+button: Get Started","<Card>
+  <Typography variant=""h2"">Join the Learning Revolution</Typography>
+  <Typography>Build skills that matter.</Typography>
+  <List>
+    <ListItem>Markdown Editor</ListItem>
+    <ListItem>Slide Generator</ListItem>
+    <ListItem>Progress Tracker</ListItem>
+  </List>
+  <Button>Get Started</Button>
+</Card>"
+"title: Start Your Journey
+description: Your personalized learning hub.
+tools: Mind Map Creator, PDF Annotator, Video Explainer
+button: Start Learning","<Card>
+  <Typography variant=""h2"">Start Your Journey</Typography>
+  <Typography>Your personalized learning hub.</Typography>
+  <List>
+    <ListItem>Mind Map Creator</ListItem>
+    <ListItem>PDF Annotator</ListItem>
+    <ListItem>Video Explainer</ListItem>
+  </List>
+  <Button>Start Learning</Button>
+</Card>"
+"title: Welcome to CampEd
+description: Empower your education.
+tools: Mind Map Creator, PDF Annotator, Video Explainer
+button: Explore Now","<Card>
+  <Typography variant=""h2"">Welcome to CampEd</Typography>
+  <Typography>Empower your education.</Typography>
+  <List>
+    <ListItem>Mind Map Creator</ListItem>
+    <ListItem>PDF Annotator</ListItem>
+    <ListItem>Video Explainer</ListItem>
+  </List>
+  <Button>Explore Now</Button>
+</Card>"
+"title: Start Your Journey
+description: Empower your education.
+tools: Quiz Builder, Flashcard Generator, Live Code Runner
+button: Join Free","<Card>
+  <Typography variant=""h2"">Start Your Journey</Typography>
+  <Typography>Empower your education.</Typography>
+  <List>
+    <ListItem>Quiz Builder</ListItem>
+    <ListItem>Flashcard Generator</ListItem>
+    <ListItem>Live Code Runner</ListItem>
+  </List>
+  <Button>Join Free</Button>
+</Card>"
+"title: Explore New Tools
+description: Learn with interactive tools.
+tools: AI Assistant, Notebook Viewer, Content Summarizer
+button: Explore Now","<Card>
+  <Typography variant=""h2"">Explore New Tools</Typography>
+  <Typography>Learn with interactive tools.</Typography>
+  <List>
+    <ListItem>AI Assistant</ListItem>
+    <ListItem>Notebook Viewer</ListItem>
+    <ListItem>Content Summarizer</ListItem>
+  </List>
+  <Button>Explore Now</Button>
+</Card>"
+"title: Boost Your Skills
+description: Your personalized learning hub.
+tools: Markdown Editor, Slide Generator, Progress Tracker
+button: Start Learning","<Card>
+  <Typography variant=""h2"">Boost Your Skills</Typography>
+  <Typography>Your personalized learning hub.</Typography>
+  <List>
+    <ListItem>Markdown Editor</ListItem>
+    <ListItem>Slide Generator</ListItem>
+    <ListItem>Progress Tracker</ListItem>
+  </List>
+  <Button>Start Learning</Button>
+</Card>"
+"title: Join the Learning Revolution
+description: Build skills that matter.
+tools: Mind Map Creator, PDF Annotator, Video Explainer
+button: Try It Today","<Card>
+  <Typography variant=""h2"">Join the Learning Revolution</Typography>
+  <Typography>Build skills that matter.</Typography>
+  <List>
+    <ListItem>Mind Map Creator</ListItem>
+    <ListItem>PDF Annotator</ListItem>
+    <ListItem>Video Explainer</ListItem>
+  </List>
+  <Button>Try It Today</Button>
+</Card>"
+"title: Welcome to CampEd
+description: Learn with interactive tools.
+tools: Mind Map Creator, PDF Annotator, Video Explainer
+button: Join Free","<Card>
+  <Typography variant=""h2"">Welcome to CampEd</Typography>
+  <Typography>Learn with interactive tools.</Typography>
+  <List>
+    <ListItem>Mind Map Creator</ListItem>
+    <ListItem>PDF Annotator</ListItem>
+    <ListItem>Video Explainer</ListItem>
+  </List>
+  <Button>Join Free</Button>
+</Card>"
+"title: Join the Learning Revolution
+description: Your personalized learning hub.
+tools: AI Assistant, Notebook Viewer, Content Summarizer
+button: Join Free","<Card>
+  <Typography variant=""h2"">Join the Learning Revolution</Typography>
+  <Typography>Your personalized learning hub.</Typography>
+  <List>
+    <ListItem>AI Assistant</ListItem>
+    <ListItem>Notebook Viewer</ListItem>
+    <ListItem>Content Summarizer</ListItem>
+  </List>
+  <Button>Join Free</Button>
+</Card>"
+"title: Welcome to CampEd
+description: Empower your education.
+tools: ChatBot Designer, Voice Notes, Learning Journal
+button: Start Learning","<Card>
+  <Typography variant=""h2"">Welcome to CampEd</Typography>
+  <Typography>Empower your education.</Typography>
+  <List>
+    <ListItem>ChatBot Designer</ListItem>
+    <ListItem>Voice Notes</ListItem>
+    <ListItem>Learning Journal</ListItem>
+  </List>
+  <Button>Start Learning</Button>
+</Card>"
+"title: Join the Learning Revolution
+description: Learn with interactive tools.
+tools: Quiz Builder, Flashcard Generator, Live Code Runner
+button: Try It Today","<Card>
+  <Typography variant=""h2"">Join the Learning Revolution</Typography>
+  <Typography>Learn with interactive tools.</Typography>
+  <List>
+    <ListItem>Quiz Builder</ListItem>
+    <ListItem>Flashcard Generator</ListItem>
+    <ListItem>Live Code Runner</ListItem>
+  </List>
+  <Button>Try It Today</Button>
+</Card>"
+"title: Join the Learning Revolution
+description: Your personalized learning hub.
+tools: AI Assistant, Notebook Viewer, Content Summarizer
+button: Get Started","<Card>
+  <Typography variant=""h2"">Join the Learning Revolution</Typography>
+  <Typography>Your personalized learning hub.</Typography>
+  <List>
+    <ListItem>AI Assistant</ListItem>
+    <ListItem>Notebook Viewer</ListItem>
+    <ListItem>Content Summarizer</ListItem>
+  </List>
+  <Button>Get Started</Button>
+</Card>"
+"title: Start Your Journey
+description: Learn with interactive tools.
+tools: Mind Map Creator, PDF Annotator, Video Explainer
+button: Start Learning","<Card>
+  <Typography variant=""h2"">Start Your Journey</Typography>
+  <Typography>Learn with interactive tools.</Typography>
+  <List>
+    <ListItem>Mind Map Creator</ListItem>
+    <ListItem>PDF Annotator</ListItem>
+    <ListItem>Video Explainer</ListItem>
+  </List>
+  <Button>Start Learning</Button>
+</Card>"
+"title: Explore New Tools
+description: Interactive content at your fingertips.
+tools: Quiz Builder, Flashcard Generator, Live Code Runner
+button: Get Started","<Card>
+  <Typography variant=""h2"">Explore New Tools</Typography>
+  <Typography>Interactive content at your fingertips.</Typography>
+  <List>
+    <ListItem>Quiz Builder</ListItem>
+    <ListItem>Flashcard Generator</ListItem>
+    <ListItem>Live Code Runner</ListItem>
+  </List>
+  <Button>Get Started</Button>
+</Card>"
+"title: Join the Learning Revolution
+description: Your personalized learning hub.
+tools: Mind Map Creator, PDF Annotator, Video Explainer
+button: Join Free","<Card>
+  <Typography variant=""h2"">Join the Learning Revolution</Typography>
+  <Typography>Your personalized learning hub.</Typography>
+  <List>
+    <ListItem>Mind Map Creator</ListItem>
+    <ListItem>PDF Annotator</ListItem>
+    <ListItem>Video Explainer</ListItem>
+  </List>
+  <Button>Join Free</Button>
+</Card>"
+"title: Explore New Tools
+description: Build skills that matter.
+tools: ChatBot Designer, Voice Notes, Learning Journal
+button: Get Started","<Card>
+  <Typography variant=""h2"">Explore New Tools</Typography>
+  <Typography>Build skills that matter.</Typography>
+  <List>
+    <ListItem>ChatBot Designer</ListItem>
+    <ListItem>Voice Notes</ListItem>
+    <ListItem>Learning Journal</ListItem>
+  </List>
+  <Button>Get Started</Button>
+</Card>"
+"title: Join the Learning Revolution
+description: Your personalized learning hub.
+tools: AI Assistant, Notebook Viewer, Content Summarizer
+button: Try It Today","<Card>
+  <Typography variant=""h2"">Join the Learning Revolution</Typography>
+  <Typography>Your personalized learning hub.</Typography>
+  <List>
+    <ListItem>AI Assistant</ListItem>
+    <ListItem>Notebook Viewer</ListItem>
+    <ListItem>Content Summarizer</ListItem>
+  </List>
+  <Button>Try It Today</Button>
+</Card>"
+"title: Boost Your Skills
+description: Your personalized learning hub.
+tools: Markdown Editor, Slide Generator, Progress Tracker
+button: Join Free","<Card>
+  <Typography variant=""h2"">Boost Your Skills</Typography>
+  <Typography>Your personalized learning hub.</Typography>
+  <List>
+    <ListItem>Markdown Editor</ListItem>
+    <ListItem>Slide Generator</ListItem>
+    <ListItem>Progress Tracker</ListItem>
+  </List>
+  <Button>Join Free</Button>
+</Card>"
+"title: Welcome to CampEd
+description: Interactive content at your fingertips.
+tools: Quiz Builder, Flashcard Generator, Live Code Runner
+button: Start Learning","<Card>
+  <Typography variant=""h2"">Welcome to CampEd</Typography>
+  <Typography>Interactive content at your fingertips.</Typography>
+  <List>
+    <ListItem>Quiz Builder</ListItem>
+    <ListItem>Flashcard Generator</ListItem>
+    <ListItem>Live Code Runner</ListItem>
+  </List>
+  <Button>Start Learning</Button>
+</Card>"
+"title: Join the Learning Revolution
+description: Your personalized learning hub.
+tools: Mind Map Creator, PDF Annotator, Video Explainer
+button: Explore Now","<Card>
+  <Typography variant=""h2"">Join the Learning Revolution</Typography>
+  <Typography>Your personalized learning hub.</Typography>
+  <List>
+    <ListItem>Mind Map Creator</ListItem>
+    <ListItem>PDF Annotator</ListItem>
+    <ListItem>Video Explainer</ListItem>
+  </List>
+  <Button>Explore Now</Button>
+</Card>"
+"title: Boost Your Skills
+description: Learn with interactive tools.
+tools: Quiz Builder, Flashcard Generator, Live Code Runner
+button: Start Learning","<Card>
+  <Typography variant=""h2"">Boost Your Skills</Typography>
+  <Typography>Learn with interactive tools.</Typography>
+  <List>
+    <ListItem>Quiz Builder</ListItem>
+    <ListItem>Flashcard Generator</ListItem>
+    <ListItem>Live Code Runner</ListItem>
+  </List>
+  <Button>Start Learning</Button>
+</Card>"
+"title: Join the Learning Revolution
+description: Your personalized learning hub.
+tools: ChatBot Designer, Voice Notes, Learning Journal
+button: Start Learning","<Card>
+  <Typography variant=""h2"">Join the Learning Revolution</Typography>
+  <Typography>Your personalized learning hub.</Typography>
+  <List>
+    <ListItem>ChatBot Designer</ListItem>
+    <ListItem>Voice Notes</ListItem>
+    <ListItem>Learning Journal</ListItem>
+  </List>
+  <Button>Start Learning</Button>
+</Card>"
+"title: Join the Learning Revolution
+description: Learn with interactive tools.
+tools: Markdown Editor, Slide Generator, Progress Tracker
+button: Get Started","<Card>
+  <Typography variant=""h2"">Join the Learning Revolution</Typography>
+  <Typography>Learn with interactive tools.</Typography>
+  <List>
+    <ListItem>Markdown Editor</ListItem>
+    <ListItem>Slide Generator</ListItem>
+    <ListItem>Progress Tracker</ListItem>
+  </List>
+  <Button>Get Started</Button>
+</Card>"
+"title: Explore New Tools
+description: Interactive content at your fingertips.
+tools: ChatBot Designer, Voice Notes, Learning Journal
+button: Join Free","<Card>
+  <Typography variant=""h2"">Explore New Tools</Typography>
+  <Typography>Interactive content at your fingertips.</Typography>
+  <List>
+    <ListItem>ChatBot Designer</ListItem>
+    <ListItem>Voice Notes</ListItem>
+    <ListItem>Learning Journal</ListItem>
+  </List>
+  <Button>Join Free</Button>
+</Card>"
+"title: Join the Learning Revolution
+description: Your personalized learning hub.
+tools: Markdown Editor, Slide Generator, Progress Tracker
+button: Join Free","<Card>
+  <Typography variant=""h2"">Join the Learning Revolution</Typography>
+  <Typography>Your personalized learning hub.</Typography>
+  <List>
+    <ListItem>Markdown Editor</ListItem>
+    <ListItem>Slide Generator</ListItem>
+    <ListItem>Progress Tracker</ListItem>
+  </List>
+  <Button>Join Free</Button>
+</Card>"
+"title: Join the Learning Revolution
+description: Learn with interactive tools.
+tools: ChatBot Designer, Voice Notes, Learning Journal
+button: Get Started","<Card>
+  <Typography variant=""h2"">Join the Learning Revolution</Typography>
+  <Typography>Learn with interactive tools.</Typography>
+  <List>
+    <ListItem>ChatBot Designer</ListItem>
+    <ListItem>Voice Notes</ListItem>
+    <ListItem>Learning Journal</ListItem>
+  </List>
+  <Button>Get Started</Button>
+</Card>"
+"title: Join the Learning Revolution
+description: Your personalized learning hub.
+tools: Mind Map Creator, PDF Annotator, Video Explainer
+button: Try It Today","<Card>
+  <Typography variant=""h2"">Join the Learning Revolution</Typography>
+  <Typography>Your personalized learning hub.</Typography>
+  <List>
+    <ListItem>Mind Map Creator</ListItem>
+    <ListItem>PDF Annotator</ListItem>
+    <ListItem>Video Explainer</ListItem>
+  </List>
+  <Button>Try It Today</Button>
+</Card>"
+"title: Boost Your Skills
+description: Empower your education.
+tools: ChatBot Designer, Voice Notes, Learning Journal
+button: Join Free","<Card>
+  <Typography variant=""h2"">Boost Your Skills</Typography>
+  <Typography>Empower your education.</Typography>
+  <List>
+    <ListItem>ChatBot Designer</ListItem>
+    <ListItem>Voice Notes</ListItem>
+    <ListItem>Learning Journal</ListItem>
+  </List>
+  <Button>Join Free</Button>
+</Card>"
+"title: Join the Learning Revolution
+description: Learn with interactive tools.
+tools: Quiz Builder, Flashcard Generator, Live Code Runner
+button: Get Started","<Card>
+  <Typography variant=""h2"">Join the Learning Revolution</Typography>
+  <Typography>Learn with interactive tools.</Typography>
+  <List>
+    <ListItem>Quiz Builder</ListItem>
+    <ListItem>Flashcard Generator</ListItem>
+    <ListItem>Live Code Runner</ListItem>
+  </List>
+  <Button>Get Started</Button>
+</Card>"
+"title: Explore New Tools
+description: Empower your education.
+tools: Quiz Builder, Flashcard Generator, Live Code Runner
+button: Get Started","<Card>
+  <Typography variant=""h2"">Explore New Tools</Typography>
+  <Typography>Empower your education.</Typography>
+  <List>
+    <ListItem>Quiz Builder</ListItem>
+    <ListItem>Flashcard Generator</ListItem>
+    <ListItem>Live Code Runner</ListItem>
+  </List>
+  <Button>Get Started</Button>
+</Card>"
+"title: Explore New Tools
+description: Build skills that matter.
+tools: Quiz Builder, Flashcard Generator, Live Code Runner
+button: Get Started","<Card>
+  <Typography variant=""h2"">Explore New Tools</Typography>
+  <Typography>Build skills that matter.</Typography>
+  <List>
+    <ListItem>Quiz Builder</ListItem>
+    <ListItem>Flashcard Generator</ListItem>
+    <ListItem>Live Code Runner</ListItem>
+  </List>
+  <Button>Get Started</Button>
+</Card>"
+"title: Join the Learning Revolution
+description: Interactive content at your fingertips.
+tools: AI Assistant, Notebook Viewer, Content Summarizer
+button: Get Started","<Card>
+  <Typography variant=""h2"">Join the Learning Revolution</Typography>
+  <Typography>Interactive content at your fingertips.</Typography>
+  <List>
+    <ListItem>AI Assistant</ListItem>
+    <ListItem>Notebook Viewer</ListItem>
+    <ListItem>Content Summarizer</ListItem>
+  </List>
+  <Button>Get Started</Button>
+</Card>"
+"title: Join the Learning Revolution
+description: Interactive content at your fingertips.
+tools: Markdown Editor, Slide Generator, Progress Tracker
+button: Get Started","<Card>
+  <Typography variant=""h2"">Join the Learning Revolution</Typography>
+  <Typography>Interactive content at your fingertips.</Typography>
+  <List>
+    <ListItem>Markdown Editor</ListItem>
+    <ListItem>Slide Generator</ListItem>
+    <ListItem>Progress Tracker</ListItem>
+  </List>
+  <Button>Get Started</Button>
+</Card>"
+"title: Join the Learning Revolution
+description: Learn with interactive tools.
+tools: ChatBot Designer, Voice Notes, Learning Journal
+button: Start Learning","<Card>
+  <Typography variant=""h2"">Join the Learning Revolution</Typography>
+  <Typography>Learn with interactive tools.</Typography>
+  <List>
+    <ListItem>ChatBot Designer</ListItem>
+    <ListItem>Voice Notes</ListItem>
+    <ListItem>Learning Journal</ListItem>
+  </List>
+  <Button>Start Learning</Button>
+</Card>"
+"title: Welcome to CampEd
+description: Empower your education.
+tools: Quiz Builder, Flashcard Generator, Live Code Runner
+button: Try It Today","<Card>
+  <Typography variant=""h2"">Welcome to CampEd</Typography>
+  <Typography>Empower your education.</Typography>
+  <List>
+    <ListItem>Quiz Builder</ListItem>
+    <ListItem>Flashcard Generator</ListItem>
+    <ListItem>Live Code Runner</ListItem>
+  </List>
+  <Button>Try It Today</Button>
+</Card>"
+"title: Boost Your Skills
+description: Interactive content at your fingertips.
+tools: Markdown Editor, Slide Generator, Progress Tracker
+button: Get Started","<Card>
+  <Typography variant=""h2"">Boost Your Skills</Typography>
+  <Typography>Interactive content at your fingertips.</Typography>
+  <List>
+    <ListItem>Markdown Editor</ListItem>
+    <ListItem>Slide Generator</ListItem>
+    <ListItem>Progress Tracker</ListItem>
+  </List>
+  <Button>Get Started</Button>
+</Card>"
+"title: Join the Learning Revolution
+description: Empower your education.
+tools: Mind Map Creator, PDF Annotator, Video Explainer
+button: Join Free","<Card>
+  <Typography variant=""h2"">Join the Learning Revolution</Typography>
+  <Typography>Empower your education.</Typography>
+  <List>
+    <ListItem>Mind Map Creator</ListItem>
+    <ListItem>PDF Annotator</ListItem>
+    <ListItem>Video Explainer</ListItem>
+  </List>
+  <Button>Join Free</Button>
+</Card>"
+"title: Explore New Tools
+description: Your personalized learning hub.
+tools: ChatBot Designer, Voice Notes, Learning Journal
+button: Explore Now","<Card>
+  <Typography variant=""h2"">Explore New Tools</Typography>
+  <Typography>Your personalized learning hub.</Typography>
+  <List>
+    <ListItem>ChatBot Designer</ListItem>
+    <ListItem>Voice Notes</ListItem>
+    <ListItem>Learning Journal</ListItem>
+  </List>
+  <Button>Explore Now</Button>
+</Card>"
+"title: Start Your Journey
+description: Your personalized learning hub.
+tools: Mind Map Creator, PDF Annotator, Video Explainer
+button: Explore Now","<Card>
+  <Typography variant=""h2"">Start Your Journey</Typography>
+  <Typography>Your personalized learning hub.</Typography>
+  <List>
+    <ListItem>Mind Map Creator</ListItem>
+    <ListItem>PDF Annotator</ListItem>
+    <ListItem>Video Explainer</ListItem>
+  </List>
+  <Button>Explore Now</Button>
+</Card>"
+"title: Boost Your Skills
+description: Build skills that matter.
+tools: Mind Map Creator, PDF Annotator, Video Explainer
+button: Get Started","<Card>
+  <Typography variant=""h2"">Boost Your Skills</Typography>
+  <Typography>Build skills that matter.</Typography>
+  <List>
+    <ListItem>Mind Map Creator</ListItem>
+    <ListItem>PDF Annotator</ListItem>
+    <ListItem>Video Explainer</ListItem>
+  </List>
+  <Button>Get Started</Button>
+</Card>"
+"title: Explore New Tools
+description: Build skills that matter.
+tools: AI Assistant, Notebook Viewer, Content Summarizer
+button: Get Started","<Card>
+  <Typography variant=""h2"">Explore New Tools</Typography>
+  <Typography>Build skills that matter.</Typography>
+  <List>
+    <ListItem>AI Assistant</ListItem>
+    <ListItem>Notebook Viewer</ListItem>
+    <ListItem>Content Summarizer</ListItem>
+  </List>
+  <Button>Get Started</Button>
+</Card>"
+"title: Join the Learning Revolution
+description: Learn with interactive tools.
+tools: Markdown Editor, Slide Generator, Progress Tracker
+button: Explore Now","<Card>
+  <Typography variant=""h2"">Join the Learning Revolution</Typography>
+  <Typography>Learn with interactive tools.</Typography>
+  <List>
+    <ListItem>Markdown Editor</ListItem>
+    <ListItem>Slide Generator</ListItem>
+    <ListItem>Progress Tracker</ListItem>
+  </List>
+  <Button>Explore Now</Button>
+</Card>"
+"title: Join the Learning Revolution
+description: Build skills that matter.
+tools: Quiz Builder, Flashcard Generator, Live Code Runner
+button: Try It Today","<Card>
+  <Typography variant=""h2"">Join the Learning Revolution</Typography>
+  <Typography>Build skills that matter.</Typography>
+  <List>
+    <ListItem>Quiz Builder</ListItem>
+    <ListItem>Flashcard Generator</ListItem>
+    <ListItem>Live Code Runner</ListItem>
+  </List>
+  <Button>Try It Today</Button>
+</Card>"
+"title: Join the Learning Revolution
+description: Build skills that matter.
+tools: AI Assistant, Notebook Viewer, Content Summarizer
+button: Get Started","<Card>
+  <Typography variant=""h2"">Join the Learning Revolution</Typography>
+  <Typography>Build skills that matter.</Typography>
+  <List>
+    <ListItem>AI Assistant</ListItem>
+    <ListItem>Notebook Viewer</ListItem>
+    <ListItem>Content Summarizer</ListItem>
+  </List>
+  <Button>Get Started</Button>
+</Card>"
+"title: Boost Your Skills
+description: Interactive content at your fingertips.
+tools: Markdown Editor, Slide Generator, Progress Tracker
+button: Join Free","<Card>
+  <Typography variant=""h2"">Boost Your Skills</Typography>
+  <Typography>Interactive content at your fingertips.</Typography>
+  <List>
+    <ListItem>Markdown Editor</ListItem>
+    <ListItem>Slide Generator</ListItem>
+    <ListItem>Progress Tracker</ListItem>
+  </List>
+  <Button>Join Free</Button>
+</Card>"
+"title: Explore New Tools
+description: Build skills that matter.
+tools: Markdown Editor, Slide Generator, Progress Tracker
+button: Try It Today","<Card>
+  <Typography variant=""h2"">Explore New Tools</Typography>
+  <Typography>Build skills that matter.</Typography>
+  <List>
+    <ListItem>Markdown Editor</ListItem>
+    <ListItem>Slide Generator</ListItem>
+    <ListItem>Progress Tracker</ListItem>
+  </List>
+  <Button>Try It Today</Button>
+</Card>"
+"title: Explore New Tools
+description: Empower your education.
+tools: Markdown Editor, Slide Generator, Progress Tracker
+button: Try It Today","<Card>
+  <Typography variant=""h2"">Explore New Tools</Typography>
+  <Typography>Empower your education.</Typography>
+  <List>
+    <ListItem>Markdown Editor</ListItem>
+    <ListItem>Slide Generator</ListItem>
+    <ListItem>Progress Tracker</ListItem>
+  </List>
+  <Button>Try It Today</Button>
+</Card>"
+"title: Boost Your Skills
+description: Your personalized learning hub.
+tools: Markdown Editor, Slide Generator, Progress Tracker
+button: Start Learning","<Card>
+  <Typography variant=""h2"">Boost Your Skills</Typography>
+  <Typography>Your personalized learning hub.</Typography>
+  <List>
+    <ListItem>Markdown Editor</ListItem>
+    <ListItem>Slide Generator</ListItem>
+    <ListItem>Progress Tracker</ListItem>
+  </List>
+  <Button>Start Learning</Button>
+</Card>"
+"title: Boost Your Skills
+description: Learn with interactive tools.
+tools: Mind Map Creator, PDF Annotator, Video Explainer
+button: Start Learning","<Card>
+  <Typography variant=""h2"">Boost Your Skills</Typography>
+  <Typography>Learn with interactive tools.</Typography>
+  <List>
+    <ListItem>Mind Map Creator</ListItem>
+    <ListItem>PDF Annotator</ListItem>
+    <ListItem>Video Explainer</ListItem>
+  </List>
+  <Button>Start Learning</Button>
+</Card>"
+"title: Start Your Journey
+description: Empower your education.
+tools: Markdown Editor, Slide Generator, Progress Tracker
+button: Explore Now","<Card>
+  <Typography variant=""h2"">Start Your Journey</Typography>
+  <Typography>Empower your education.</Typography>
+  <List>
+    <ListItem>Markdown Editor</ListItem>
+    <ListItem>Slide Generator</ListItem>
+    <ListItem>Progress Tracker</ListItem>
+  </List>
+  <Button>Explore Now</Button>
+</Card>"
+"title: Welcome to CampEd
+description: Learn with interactive tools.
+tools: Quiz Builder, Flashcard Generator, Live Code Runner
+button: Explore Now","<Card>
+  <Typography variant=""h2"">Welcome to CampEd</Typography>
+  <Typography>Learn with interactive tools.</Typography>
+  <List>
+    <ListItem>Quiz Builder</ListItem>
+    <ListItem>Flashcard Generator</ListItem>
+    <ListItem>Live Code Runner</ListItem>
+  </List>
+  <Button>Explore Now</Button>
+</Card>"
+"title: Boost Your Skills
+description: Learn with interactive tools.
+tools: ChatBot Designer, Voice Notes, Learning Journal
+button: Try It Today","<Card>
+  <Typography variant=""h2"">Boost Your Skills</Typography>
+  <Typography>Learn with interactive tools.</Typography>
+  <List>
+    <ListItem>ChatBot Designer</ListItem>
+    <ListItem>Voice Notes</ListItem>
+    <ListItem>Learning Journal</ListItem>
+  </List>
+  <Button>Try It Today</Button>
+</Card>"
+"title: Boost Your Skills
+description: Interactive content at your fingertips.
+tools: Mind Map Creator, PDF Annotator, Video Explainer
+button: Explore Now","<Card>
+  <Typography variant=""h2"">Boost Your Skills</Typography>
+  <Typography>Interactive content at your fingertips.</Typography>
+  <List>
+    <ListItem>Mind Map Creator</ListItem>
+    <ListItem>PDF Annotator</ListItem>
+    <ListItem>Video Explainer</ListItem>
+  </List>
+  <Button>Explore Now</Button>
+</Card>"
+"title: Join the Learning Revolution
+description: Your personalized learning hub.
+tools: Markdown Editor, Slide Generator, Progress Tracker
+button: Join Free","<Card>
+  <Typography variant=""h2"">Join the Learning Revolution</Typography>
+  <Typography>Your personalized learning hub.</Typography>
+  <List>
+    <ListItem>Markdown Editor</ListItem>
+    <ListItem>Slide Generator</ListItem>
+    <ListItem>Progress Tracker</ListItem>
+  </List>
+  <Button>Join Free</Button>
+</Card>"
+"title: Start Your Journey
+description: Build skills that matter.
+tools: Markdown Editor, Slide Generator, Progress Tracker
+button: Try It Today","<Card>
+  <Typography variant=""h2"">Start Your Journey</Typography>
+  <Typography>Build skills that matter.</Typography>
+  <List>
+    <ListItem>Markdown Editor</ListItem>
+    <ListItem>Slide Generator</ListItem>
+    <ListItem>Progress Tracker</ListItem>
+  </List>
+  <Button>Try It Today</Button>
+</Card>"
+"title: Join the Learning Revolution
+description: Interactive content at your fingertips.
+tools: Mind Map Creator, PDF Annotator, Video Explainer
+button: Try It Today","<Card>
+  <Typography variant=""h2"">Join the Learning Revolution</Typography>
+  <Typography>Interactive content at your fingertips.</Typography>
+  <List>
+    <ListItem>Mind Map Creator</ListItem>
+    <ListItem>PDF Annotator</ListItem>
+    <ListItem>Video Explainer</ListItem>
+  </List>
+  <Button>Try It Today</Button>
+</Card>"
+"title: Boost Your Skills
+description: Interactive content at your fingertips.
+tools: Quiz Builder, Flashcard Generator, Live Code Runner
+button: Explore Now","<Card>
+  <Typography variant=""h2"">Boost Your Skills</Typography>
+  <Typography>Interactive content at your fingertips.</Typography>
+  <List>
+    <ListItem>Quiz Builder</ListItem>
+    <ListItem>Flashcard Generator</ListItem>
+    <ListItem>Live Code Runner</ListItem>
+  </List>
+  <Button>Explore Now</Button>
+</Card>"
+"title: Welcome to CampEd
+description: Empower your education.
+tools: ChatBot Designer, Voice Notes, Learning Journal
+button: Join Free","<Card>
+  <Typography variant=""h2"">Welcome to CampEd</Typography>
+  <Typography>Empower your education.</Typography>
+  <List>
+    <ListItem>ChatBot Designer</ListItem>
+    <ListItem>Voice Notes</ListItem>
+    <ListItem>Learning Journal</ListItem>
+  </List>
+  <Button>Join Free</Button>
+</Card>"
+"title: Join the Learning Revolution
+description: Empower your education.
+tools: Mind Map Creator, PDF Annotator, Video Explainer
+button: Start Learning","<Card>
+  <Typography variant=""h2"">Join the Learning Revolution</Typography>
+  <Typography>Empower your education.</Typography>
+  <List>
+    <ListItem>Mind Map Creator</ListItem>
+    <ListItem>PDF Annotator</ListItem>
+    <ListItem>Video Explainer</ListItem>
+  </List>
+  <Button>Start Learning</Button>
+</Card>"
+"title: Explore New Tools
+description: Learn with interactive tools.
+tools: Mind Map Creator, PDF Annotator, Video Explainer
+button: Try It Today","<Card>
+  <Typography variant=""h2"">Explore New Tools</Typography>
+  <Typography>Learn with interactive tools.</Typography>
+  <List>
+    <ListItem>Mind Map Creator</ListItem>
+    <ListItem>PDF Annotator</ListItem>
+    <ListItem>Video Explainer</ListItem>
+  </List>
+  <Button>Try It Today</Button>
+</Card>"
+"title: Boost Your Skills
+description: Empower your education.
+tools: AI Assistant, Notebook Viewer, Content Summarizer
+button: Start Learning","<Card>
+  <Typography variant=""h2"">Boost Your Skills</Typography>
+  <Typography>Empower your education.</Typography>
+  <List>
+    <ListItem>AI Assistant</ListItem>
+    <ListItem>Notebook Viewer</ListItem>
+    <ListItem>Content Summarizer</ListItem>
+  </List>
+  <Button>Start Learning</Button>
+</Card>"
+"title: Boost Your Skills
+description: Empower your education.
+tools: AI Assistant, Notebook Viewer, Content Summarizer
+button: Get Started","<Card>
+  <Typography variant=""h2"">Boost Your Skills</Typography>
+  <Typography>Empower your education.</Typography>
+  <List>
+    <ListItem>AI Assistant</ListItem>
+    <ListItem>Notebook Viewer</ListItem>
+    <ListItem>Content Summarizer</ListItem>
+  </List>
+  <Button>Get Started</Button>
+</Card>"
+"title: Join the Learning Revolution
+description: Interactive content at your fingertips.
+tools: Markdown Editor, Slide Generator, Progress Tracker
+button: Get Started","<Card>
+  <Typography variant=""h2"">Join the Learning Revolution</Typography>
+  <Typography>Interactive content at your fingertips.</Typography>
+  <List>
+    <ListItem>Markdown Editor</ListItem>
+    <ListItem>Slide Generator</ListItem>
+    <ListItem>Progress Tracker</ListItem>
+  </List>
+  <Button>Get Started</Button>
+</Card>"
+"title: Boost Your Skills
+description: Your personalized learning hub.
+tools: Markdown Editor, Slide Generator, Progress Tracker
+button: Explore Now","<Card>
+  <Typography variant=""h2"">Boost Your Skills</Typography>
+  <Typography>Your personalized learning hub.</Typography>
+  <List>
+    <ListItem>Markdown Editor</ListItem>
+    <ListItem>Slide Generator</ListItem>
+    <ListItem>Progress Tracker</ListItem>
+  </List>
+  <Button>Explore Now</Button>
+</Card>"
+"title: Explore New Tools
+description: Build skills that matter.
+tools: AI Assistant, Notebook Viewer, Content Summarizer
+button: Start Learning","<Card>
+  <Typography variant=""h2"">Explore New Tools</Typography>
+  <Typography>Build skills that matter.</Typography>
+  <List>
+    <ListItem>AI Assistant</ListItem>
+    <ListItem>Notebook Viewer</ListItem>
+    <ListItem>Content Summarizer</ListItem>
+  </List>
+  <Button>Start Learning</Button>
+</Card>"
